@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-08",
+  "date": "2026-04-09",
   "hand": {
     "title": "Daily Hand",
     "events": [
@@ -9,47 +9,47 @@
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Flop</strong> \u2014 2, 8, 4. You bet. <strong>Your opponent called.</strong>"
+        "text": "<strong>Flop</strong> \u2014 7, 10, 10. You bet. <strong>Your opponent called.</strong>"
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Turn</strong> \u2014 King. You checked. Your opponent checked."
+        "text": "<strong>Turn</strong> \u2014 5. You checked. Your opponent checked."
       },
       {
         "icon": "\ud83d\udca5",
-        "text": "<strong>River</strong> \u2014 10. Your opponent suddenly <strong>fired a large overbet.</strong>"
+        "text": "<strong>River</strong> \u2014 Ace. Your opponent suddenly <strong>fired a large overbet.</strong>"
       }
     ],
     "yourCards": [
       [
         "5",
-        "d"
+        "c"
       ],
       [
-        "9",
+        "Q",
         "d"
       ]
     ],
     "community": [
       [
-        "2",
-        "d"
-      ],
-      [
-        "8",
+        "7",
         "c"
       ],
       [
-        "4",
-        "s"
-      ],
-      [
-        "K",
-        "s"
+        "T",
+        "d"
       ],
       [
         "T",
+        "c"
+      ],
+      [
+        "5",
         "s"
+      ],
+      [
+        "A",
+        "d"
       ]
     ],
     "correct": 2,
@@ -57,28 +57,41 @@
       {
         "cards": [
           [
-            "J",
-            "d"
+            "9",
+            "h"
           ],
           [
-            "3",
-            "h"
+            "6",
+            "s"
           ]
         ],
-        "label": "J 3 \u2014 makes High Card"
+        "label": "9 6 \u2014 makes One Pair"
       },
       {
         "cards": [
           [
-            "2",
-            "c"
+            "K",
+            "s"
           ],
           [
             "A",
-            "s"
+            "c"
           ]
         ],
-        "label": "2 A \u2014 makes One Pair"
+        "label": "K A \u2014 makes Two Pair"
+      },
+      {
+        "cards": [
+          [
+            "Q",
+            "s"
+          ],
+          [
+            "9",
+            "d"
+          ]
+        ],
+        "label": "Q 9 \u2014 makes One Pair"
       },
       {
         "cards": [
@@ -87,32 +100,19 @@
             "h"
           ],
           [
-            "5",
-            "h"
-          ]
-        ],
-        "label": "6 5 \u2014 makes High Card"
-      },
-      {
-        "cards": [
-          [
             "7",
             "s"
-          ],
-          [
-            "3",
-            "c"
           ]
         ],
-        "label": "7 3 \u2014 makes High Card"
+        "label": "6 7 \u2014 makes Two Pair"
       }
     ],
     "wrongReasons": [
-      "Players with J 3 wouldn't follow this exact betting line. The pattern fits a different type of hand \u2014 look at when the aggression started and what card triggered it.",
-      "While 2 A is possible, the betting sequence doesn't match. Pay attention to when they were passive versus when they suddenly became aggressive.",
+      "While 9 6 is possible, the betting sequence doesn't match. Pay attention to when they were passive versus when they suddenly became aggressive.",
+      "While K A is possible, the betting sequence doesn't match. Pay attention to when they were passive versus when they suddenly became aggressive.",
       null,
-      "7 3 doesn't explain the sizing and timing of the bets. Think about what hand would make someone bet this way on each specific street."
+      "6 7 doesn't explain the sizing and timing of the bets. Think about what hand would make someone bet this way on each specific street."
     ],
-    "explanation": "<strong>Answer: 6 5</strong><br><br>Your opponent held 6\u2665 5\u2665, making a <strong>High Card</strong> by the river. Study the betting pattern \u2014 weak hands apply pressure suddenly on scary cards."
+    "explanation": "<strong>Answer: Q 9</strong><br><br>Your opponent held Q\u2660 9\u2666, making a <strong>One Pair</strong> by the river. Study the betting pattern \u2014 weak hands apply pressure suddenly on scary cards."
   }
 }
