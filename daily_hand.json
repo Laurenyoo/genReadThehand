@@ -5,19 +5,19 @@
     "events": [
       {
         "icon": "\ud83d\udcb0",
-        "text": "You raised before the cards were dealt. Your opponent called."
+        "text": "You raised aggressively before the flop, hoping to build the pot. Your opponent called, showing they were willing to play."
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Flop</strong> \u2014 7, 10, 10. You bet. <strong>Your opponent called.</strong>"
+        "text": "<strong>Flop</strong> \u2014 7, 10, 10. You bet, trying to take control of the hand, and <strong>your opponent called</strong>, indicating they might have a draw or a weak hand."
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Turn</strong> \u2014 5. You checked. Your opponent checked."
+        "text": "<strong>Turn</strong> \u2014 5. You bet again, but <strong>your opponent raised</strong>, suggesting they had improved their hand and were gaining momentum."
       },
       {
         "icon": "\ud83d\udca5",
-        "text": "<strong>River</strong> \u2014 Ace. Your opponent suddenly <strong>fired a large overbet.</strong>"
+        "text": "<strong>River</strong> \u2014 Ace. When you checked, <strong>your opponent bet again</strong>, going for value with a made hand."
       }
     ],
     "yourCards": [
@@ -65,7 +65,7 @@
             "s"
           ]
         ],
-        "label": "9 6 \u2014 makes One Pair"
+        "label": "9 6"
       },
       {
         "cards": [
@@ -78,7 +78,7 @@
             "c"
           ]
         ],
-        "label": "K A \u2014 makes Two Pair"
+        "label": "K A"
       },
       {
         "cards": [
@@ -91,7 +91,7 @@
             "d"
           ]
         ],
-        "label": "Q 9 \u2014 makes One Pair"
+        "label": "Q 9"
       },
       {
         "cards": [
@@ -104,15 +104,15 @@
             "s"
           ]
         ],
-        "label": "6 7 \u2014 makes Two Pair"
+        "label": "6 7"
       }
     ],
     "wrongReasons": [
-      "While 9 6 is possible, the betting sequence doesn't match. Pay attention to when they were passive versus when they suddenly became aggressive.",
-      "While K A is possible, the betting sequence doesn't match. Pay attention to when they were passive versus when they suddenly became aggressive.",
+      "9 6 could play a similar line, but the check on the turn is the tell \u2014 that card changes things for the correct hand in a way 9 6 doesn't benefit from.",
+      "K A gives you a two pair \u2014 a hand most players protect aggressively. The passive moments in this hand don't fit.",
       null,
-      "6 7 doesn't explain the sizing and timing of the bets. Think about what hand would make someone bet this way on each specific street."
+      "With a two pair, 6 7 would likely play faster and bigger. The measured bet sizes in this hand suggest something more modest."
     ],
-    "explanation": "<strong>Answer: Q 9</strong><br><br>Your opponent held Q\u2660 9\u2666, making a <strong>One Pair</strong> by the river. Study the betting pattern \u2014 weak hands apply pressure suddenly on scary cards."
+    "explanation": "<strong>Answer: Q 9</strong><br><br>Your opponent's call on the flop followed by a raise on the turn indicates they were waiting for the right moment to strike, likely after making a pair. The river bet confirms they had a real hand, and given the board, <strong>Q 9</strong> makes sense as they would have made a pair of tens by the flop and continued to value bet afterwards."
   }
 }
