@@ -158,7 +158,7 @@ def build_narrative(opp_cards, community):
             {'icon':'💰','text':'You raised before the cards were dealt. Your opponent called.'},
             {'icon':'🃏','text':f'<strong>Flop</strong> — {fn}. You bet. <strong>Your opponent just called.</strong>'},
             {'icon':'🃏','text':f'<strong>Turn</strong> — {tn}. You bet again. <strong>Your opponent raised you.</strong>'},
-            {'icon':'💥','text':f'<strong>River</strong> — {rn}. Your opponent <strong>moved all-in.</strong>'},
+            {'icon':'🌊','text':f'<strong>River</strong> — {rn}. Your opponent <strong>moved all-in.</strong>'},
         ]
         explanation = (
             f'<strong>Answer: {lbl}</strong><br><br>'
@@ -171,7 +171,7 @@ def build_narrative(opp_cards, community):
             {'icon':'💰','text':'Your opponent called your raise before the cards were dealt.'},
             {'icon':'🃏','text':f'<strong>Flop</strong> — {fn}. You bet. <strong>Your opponent called.</strong>'},
             {'icon':'🃏','text':f'<strong>Turn</strong> — {tn}. You checked. <strong>Your opponent bet.</strong>'},
-            {'icon':'💥','text':f'<strong>River</strong> — {rn}. Your opponent <strong>bet large — about the size of the pot.</strong>'},
+            {'icon':'🌊','text':f'<strong>River</strong> — {rn}. Your opponent <strong>bet large — about the size of the pot.</strong>'},
         ]
         explanation = (
             f'<strong>Answer: {lbl}</strong><br><br>'
@@ -184,7 +184,7 @@ def build_narrative(opp_cards, community):
             {'icon':'💰','text':'Both players called a raise before the cards were dealt.'},
             {'icon':'🃏','text':f'<strong>Flop</strong> — {fn}. You bet. <strong>Your opponent raised.</strong>'},
             {'icon':'🃏','text':f'<strong>Turn</strong> — {tn}. Your opponent led out with a bet. <strong>You called.</strong>'},
-            {'icon':'💥','text':f'<strong>River</strong> — {rn}. Your opponent <strong>fired again — half the pot.</strong>'},
+            {'icon':'🌊','text':f'<strong>River</strong> — {rn}. Your opponent <strong>fired again — half the pot.</strong>'},
         ]
         explanation = (
             f'<strong>Answer: {lbl}</strong><br><br>'
@@ -197,7 +197,7 @@ def build_narrative(opp_cards, community):
             {'icon':'💰','text':'You raised before the cards were dealt. Your opponent called.'},
             {'icon':'🃏','text':f'<strong>Flop</strong> — {fn}. You bet. <strong>Your opponent raised you back.</strong>'},
             {'icon':'🃏','text':f'<strong>Turn</strong> — {tn}. Your opponent bet out. <strong>You called.</strong>'},
-            {'icon':'💥','text':f'<strong>River</strong> — {rn}. Your opponent <strong>shoved all-in without hesitation.</strong>'},
+            {'icon':'🌊','text':f'<strong>River</strong> — {rn}. Your opponent <strong>shoved all-in without hesitation.</strong>'},
         ]
         explanation = (
             f'<strong>Answer: {lbl}</strong><br><br>'
@@ -212,7 +212,7 @@ def build_narrative(opp_cards, community):
                 {'icon':'💰','text':'You raised before the cards were dealt. Your opponent called.'},
                 {'icon':'🃏','text':f'<strong>Flop</strong> — {fn}. You bet. <strong>Your opponent called.</strong>'},
                 {'icon':'🃏','text':f'<strong>Turn</strong> — {tn}. You checked. <strong>Your opponent bet — bigger than expected.</strong>'},
-                {'icon':'💥','text':f'<strong>River</strong> — {rn}. Your opponent <strong>fired again for value.</strong>'},
+                {'icon':'🌊','text':f'<strong>River</strong> — {rn}. Your opponent <strong>fired again for value.</strong>'},
             ]
             explanation = (
                 f'<strong>Answer: {lbl}</strong><br><br>'
@@ -225,7 +225,7 @@ def build_narrative(opp_cards, community):
                 {'icon':'💰','text':'Your opponent raised before the cards were dealt. You called.'},
                 {'icon':'🃏','text':f'<strong>Flop</strong> — {fn}. Your opponent bet. <strong>You called.</strong>'},
                 {'icon':'🃏','text':f'<strong>Turn</strong> — {tn}. <strong>Your opponent bet again — bigger.</strong>'},
-                {'icon':'💥','text':f'<strong>River</strong> — {rn}. Your opponent <strong>fired a large river bet.</strong>'},
+                {'icon':'🌊','text':f'<strong>River</strong> — {rn}. Your opponent <strong>fired a large river bet.</strong>'},
             ]
             explanation = (
                 f'<strong>Answer: {lbl}</strong><br><br>'
@@ -238,7 +238,7 @@ def build_narrative(opp_cards, community):
             {'icon':'💰','text':'Your opponent raised before the cards were dealt. You called.'},
             {'icon':'🃏','text':f'<strong>Flop</strong> — {fn}. Your opponent bet. <strong>You called.</strong>'},
             {'icon':'🃏','text':f'<strong>Turn</strong> — {tn}. Your opponent bet again. <strong>You called.</strong>'},
-            {'icon':'💥','text':f'<strong>River</strong> — {rn}. <strong>Your opponent checked — then called your bet.</strong>'},
+            {'icon':'🌊','text':f'<strong>River</strong> — {rn}. <strong>Your opponent checked — then called your bet.</strong>'},
         ]
         explanation = (
             f'<strong>Answer: {lbl}</strong><br><br>'
@@ -252,7 +252,7 @@ def build_narrative(opp_cards, community):
             {'icon':'💰','text':'You raised before the cards were dealt. Your opponent called.'},
             {'icon':'🃏','text':f'<strong>Flop</strong> — {fn}. Your opponent checked. You bet. <strong>Your opponent called.</strong>'},
             {'icon':'🃏','text':f'<strong>Turn</strong> — {tn}. Both players checked.'},
-            {'icon':'💥','text':f'<strong>River</strong> — {rn}. Your opponent <strong>led out with a bet.</strong>'},
+            {'icon':'🌊','text':f'<strong>River</strong> — {rn}. Your opponent <strong>led out with a bet.</strong>'},
         ]
         explanation = (
             f'<strong>Answer: {lbl}</strong><br><br>'
@@ -266,7 +266,7 @@ def build_narrative(opp_cards, community):
             {'icon':'💰','text':'You raised before the cards were dealt. Your opponent called.'},
             {'icon':'🃏','text':f'<strong>Flop</strong> — {fn}. You bet. <strong>Your opponent called</strong>, staying patient.'},
             {'icon':'🃏','text':f'<strong>Turn</strong> — {tn}. You bet. <strong>Your opponent raised</strong> — they just connected.'},
-            {'icon':'💥','text':f'<strong>River</strong> — {rn}. Your opponent <strong>bet again when checked to.</strong>'},
+            {'icon':'🌊','text':f'<strong>River</strong> — {rn}. Your opponent <strong>bet again when checked to.</strong>'},
         ]
         explanation = (
             f'<strong>Answer: {lbl}</strong><br><br>'
@@ -280,7 +280,7 @@ def build_narrative(opp_cards, community):
             {'icon':'💰','text':'You raised before the cards were dealt. Your opponent called.'},
             {'icon':'🃏','text':f'<strong>Flop</strong> — {fn}. You bet. <strong>Your opponent called.</strong>'},
             {'icon':'🃏','text':f'<strong>Turn</strong> — {tn}. You bet. <strong>Your opponent called again.</strong>'},
-            {'icon':'💥','text':f'<strong>River</strong> — {rn}. Your opponent <strong>led out with a confident bet.</strong>'},
+            {'icon':'🌊','text':f'<strong>River</strong> — {rn}. Your opponent <strong>led out with a confident bet.</strong>'},
         ]
         explanation = (
             f'<strong>Answer: {lbl}</strong><br><br>'
@@ -461,7 +461,7 @@ Return ONLY this JSON — no markdown, no extra text:
     {{"icon": "💰", "text": "pre-flop action in 1-2 sentences"}},
     {{"icon": "🃏", "text": "<strong>Flop</strong> — {fn}. what happened on the flop"}},
     {{"icon": "🃏", "text": "<strong>Turn</strong> — {tn}. what happened on the turn"}},
-    {{"icon": "💥", "text": "<strong>River</strong> — {rn}. the decisive river action"}}
+    {{"icon": "🌊", "text": "<strong>River</strong> — {rn}. the decisive river action"}}
   ],
   "explanation": "<strong>Answer: {lbl}</strong><br><br>2-3 sentences explaining why this hand fits the betting. Reference specific streets."
 }}
