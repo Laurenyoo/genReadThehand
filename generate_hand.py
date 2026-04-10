@@ -153,7 +153,7 @@ def build_narrative(opp_cards, your_cards, community):
     ctx = opp_analysis(opp_cards, community)
 
     your_label = f"{display(your_cards[0]['rank'])}, {display(your_cards[1]['rank'])}"
-    your_prefix = f"Your cards — {your_label}. "
+    your_prefix = f"<strong>Your cards — {your_label}.</strong> "
 
     if hr >= HAND_RANK['Full House']:
         # Monster — slow play then trap
@@ -462,7 +462,7 @@ TEMPLATE EXPLANATION TO REWRITE:
 Return ONLY this JSON — no markdown, no extra text:
 {{
   "events": [
-    {{"icon": "💰", "text": "Your cards — {your_label}. pre-flop action in 1-2 sentences"}},
+    {{"icon": "💰", "text": "<strong>Your cards — {your_label}.</strong> pre-flop action in 1-2 sentences"}},
     {{"icon": "🃏", "text": "<strong>Flop</strong> — {fn}. what happened on the flop"}},
     {{"icon": "🃏", "text": "<strong>Turn</strong> — {tn}. what happened on the turn"}},
     {{"icon": "🌊", "text": "<strong>River</strong> — {rn}. the decisive river action"}}
@@ -476,7 +476,7 @@ Rules:
 - Use <strong> tags around card names and key actions
 - Each event must be 1-2 punchy sentences
 - The betting actions in events must match the template (calls, raises, checks) — only rewrite the prose style
-- CRITICAL: The first event text MUST start exactly with "Your cards — {your_label}. " followed by the pre-flop action"""
+- CRITICAL: The first event text MUST start exactly with "<strong>Your cards — {your_label}.</strong> " followed by the pre-flop action"""
 
     for attempt in range(3):
         resp = requests.post(
@@ -496,6 +496,8 @@ Rules:
         try:
             data = json.loads(cleaned)
             assert len(data['events']) == 4 and 'explanation' in data
+            for e in data['events']:
+                e['text'] = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', e['text'])
             return data['events'], data['explanation']
         except (json.JSONDecodeError, AssertionError, KeyError) as e:
             print(f'   LLM attempt {attempt+1} bad JSON ({e}), retrying...')
