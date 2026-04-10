@@ -538,9 +538,11 @@ def generate_daily_hand():
     wrong_raw = generate_wrong_choices(opp_cards, deck, community)
 
     correct_choice = {
+        'label': card_label(opp_cards),
         'cards': [[c['rank'], c['suit']] for c in opp_cards],
     }
     wrong_choices = [{
+        'label': card_label(pair),
         'cards': [[c['rank'], c['suit']] for c in pair],
     } for pair, _ in wrong_raw]
 
