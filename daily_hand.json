@@ -1,50 +1,28 @@
 {
-  "date": "2026-04-09",
+  "date": "2026-04-10",
   "hand": {
     "title": "Daily Hand",
     "events": [
       {
         "icon": "\ud83d\udcb0",
-        "text": "You raised aggressively before the flop, hoping to build the pot. Your opponent called, showing they were willing to play."
+        "text": "You kicked off the action with a raise before the cards were dealt, and your opponent decided to **call**. The pot was building, and the tension was palpable."
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Flop</strong> \u2014 7, 10, 10. You bet, trying to take control of the hand, and <strong>your opponent called</strong>, indicating they might have a draw or a weak hand."
+        "text": "<strong>Flop</strong> \u2014 3, 7, 10. You **bet**, trying to assert your dominance, but your opponent **called**, refusing to back down."
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Turn</strong> \u2014 5. You bet again, but <strong>your opponent raised</strong>, suggesting they had improved their hand and were gaining momentum."
+        "text": "<strong>Turn</strong> \u2014 3. You **bet** again, but this time your opponent **raised**, indicating they might have just picked up a piece of the board."
       },
       {
         "icon": "\ud83d\udca5",
-        "text": "<strong>River</strong> \u2014 Ace. When you checked, <strong>your opponent bet again</strong>, going for value with a made hand."
+        "text": "<strong>River</strong> \u2014 8. When you **checked**, your opponent **bet again**, going for value and putting the pressure on you to make a tough decision."
       }
     ],
     "yourCards": [
       [
-        "5",
-        "c"
-      ],
-      [
-        "Q",
-        "d"
-      ]
-    ],
-    "community": [
-      [
-        "7",
-        "c"
-      ],
-      [
-        "T",
-        "d"
-      ],
-      [
-        "T",
-        "c"
-      ],
-      [
-        "5",
+        "2",
         "s"
       ],
       [
@@ -52,67 +30,89 @@
         "d"
       ]
     ],
-    "correct": 2,
+    "community": [
+      [
+        "3",
+        "c"
+      ],
+      [
+        "7",
+        "h"
+      ],
+      [
+        "T",
+        "d"
+      ],
+      [
+        "3",
+        "s"
+      ],
+      [
+        "8",
+        "d"
+      ]
+    ],
+    "correct": 1,
     "choices": [
       {
         "cards": [
           [
-            "9",
-            "h"
+            "J",
+            "s"
           ],
           [
             "6",
-            "s"
+            "h"
           ]
         ],
-        "label": "9 6"
-      },
-      {
-        "cards": [
-          [
-            "K",
-            "s"
-          ],
-          [
-            "A",
-            "c"
-          ]
-        ],
-        "label": "K A"
+        "label": "J 6"
       },
       {
         "cards": [
           [
             "Q",
-            "s"
+            "c"
           ],
           [
-            "9",
+            "5",
+            "h"
+          ]
+        ],
+        "label": "Q 5"
+      },
+      {
+        "cards": [
+          [
+            "3",
+            "d"
+          ],
+          [
+            "J",
             "d"
           ]
         ],
-        "label": "Q 9"
+        "label": "3 J"
       },
       {
         "cards": [
           [
             "6",
-            "h"
+            "s"
           ],
           [
-            "7",
-            "s"
+            "Q",
+            "h"
           ]
         ],
-        "label": "6 7"
+        "label": "6 Q"
       }
     ],
     "wrongReasons": [
-      "9 6 could play a similar line, but the check on the turn is the tell \u2014 that card changes things for the correct hand in a way 9 6 doesn't benefit from.",
-      "K A gives you a two pair \u2014 a hand most players protect aggressively. The passive moments in this hand don't fit.",
+      "J 6 is a reasonable guess, but look at the specific street where the aggression shifted \u2014 that card helps the correct hand more than J 6.",
       null,
-      "With a two pair, 6 7 would likely play faster and bigger. The measured bet sizes in this hand suggest something more modest."
+      "With a three of a kind, 3 J would likely play faster and bigger. The measured bet sizes in this hand suggest something more modest.",
+      "6 Q could play a similar line, but the check on the turn is the tell \u2014 that card changes things for the correct hand in a way 6 Q doesn't benefit from."
     ],
-    "explanation": "<strong>Answer: Q 9</strong><br><br>Your opponent's call on the flop followed by a raise on the turn indicates they were waiting for the right moment to strike, likely after making a pair. The river bet confirms they had a real hand, and given the board, <strong>Q 9</strong> makes sense as they would have made a pair of tens by the flop and continued to value bet afterwards."
+    "explanation": "<strong>Answer: Q 5</strong><br><br>Your opponent's **call** on the flop and **raise** on the turn suggested they were waiting for the right moment to strike. The **bet** on the river confirmed they had made a hand, and given the board, **Q 5** making a pair of **Q**'s is the most plausible explanation for their betting pattern."
   }
 }
