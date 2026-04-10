@@ -1,114 +1,114 @@
 {
-  "date": "2026-04-10T02:41:14",
+  "date": "2026-04-10T02:52:06",
   "hand": {
     "title": "Daily Hand",
     "events": [
       {
         "icon": "\ud83d\udcb0",
-        "text": "You kicked off the action with a raise, and your opponent called, setting the stage for a potentially explosive hand. The stakes were high, and the tension was palpable."
+        "text": "The hand kicked off with a raise from your opponent, which you decided to call. The stage was set for a potentially explosive pot."
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Flop</strong> \u2014 <strong>Ace</strong>, <strong>5</strong>, <strong>6</strong>. You bet, trying to assert your dominance, but your opponent <strong>called</strong>, refusing to back down."
+        "text": "<strong>Flop</strong> \u2014 <strong>6</strong>, <strong>8</strong>, <strong>9</strong>. Your opponent came out betting, and you chose to <strong>call</strong>, sensing a potential opportunity to strike back later."
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Turn</strong> \u2014 <strong>King</strong>. You checked, giving your opponent the opportunity to take control, and they seized it, <strong>betting</strong> big, a sudden and unexpected move that put you on notice."
+        "text": "<strong>Turn</strong> \u2014 <strong>Queen</strong>. The board didn't seem to improve your opponent's hand, yet they <strong>bet again</strong> \u2014 this time with a bit more aggression, aiming to protect their hand."
       },
       {
-        "icon": "\ud83d\udca5",
-        "text": "<strong>River</strong> \u2014 <strong>5</strong>. Your opponent <strong>fired again for value</strong>, determined to maximize their winnings and leave no doubt about their hand's strength."
+        "icon": "\ud83c\udf0a",
+        "text": "<strong>River</strong> \u2014 <strong>Queen</strong>. The final card sparked a <strong>large river bet</strong> from your opponent, indicating a hand that had recently improved and was now looking to maximize its value."
       }
     ],
     "yourCards": [
       [
-        "2",
-        "s"
+        "5",
+        "c"
       ],
       [
-        "8",
-        "c"
+        "T",
+        "s"
       ]
     ],
     "community": [
       [
-        "A",
-        "c"
-      ],
-      [
-        "5",
-        "d"
-      ],
-      [
         "6",
-        "c"
-      ],
-      [
-        "K",
         "d"
       ],
       [
-        "5",
+        "8",
+        "s"
+      ],
+      [
+        "9",
         "h"
+      ],
+      [
+        "Q",
+        "h"
+      ],
+      [
+        "Q",
+        "d"
       ]
     ],
-    "correct": 2,
+    "correct": 1,
     "choices": [
       {
         "cards": [
           [
-            "J",
+            "4",
+            "c"
+          ],
+          [
+            "9",
+            "c"
+          ]
+        ]
+      },
+      {
+        "cards": [
+          [
+            "A",
             "s"
           ],
           [
             "6",
-            "h"
+            "s"
           ]
         ]
       },
       {
         "cards": [
           [
-            "Q",
-            "d"
+            "6",
+            "h"
           ],
           [
-            "5",
+            "6",
             "c"
           ]
         ]
       },
       {
         "cards": [
+          [
+            "3",
+            "h"
+          ],
           [
             "7",
             "s"
-          ],
-          [
-            "K",
-            "c"
-          ]
-        ]
-      },
-      {
-        "cards": [
-          [
-            "T",
-            "h"
-          ],
-          [
-            "4",
-            "d"
           ]
         ]
       }
     ],
     "wrongReasons": [
-      "J 6 has similar strength, but look at when the aggression shifted \u2014 the turn card connects with the correct hand in a way it doesn't connect with J 6.",
-      "Q 5 makes a three of a kind here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
+      "4 9 is close, but the river lead is the tell. The correct hand picked up more on the river than 4 9 would have.",
       null,
-      "10 4 doesn't benefit from the turn card the way the correct hand does. A player holding only one pair wouldn't have the confidence to raise on that street."
+      "6 6 makes a full house here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
+      "3 7 has little reason to lead the river here \u2014 one pair can't comfortably go for value after calling two streets."
     ],
-    "explanation": "<strong>Answer: 7 K</strong><br><br>Your opponent's hand improved significantly on the <strong>Turn</strong> when they made <strong>One Pair</strong> with the <strong>King</strong>, and then again on the <strong>River</strong> when they made <strong>Two Pair</strong> with the <strong>5</strong>. The <strong>7 K</strong> hand fits perfectly with the betting pattern, as the opponent's sudden aggression on the <strong>Turn</strong> and continued pressure on the <strong>River</strong> suggest a strong hand that improved at the right moments."
+    "explanation": "<strong>Answer: A 6</strong><br><br>Your opponent's consistent betting pattern, especially the increased aggression on the turn, suggested a hand that was strong but not invincible. The fact that they only improved to <strong>Two Pair</strong> by the river, with the <strong>A</strong> and <strong>6</strong> making a pair with the board's <strong>Queen</strong> and <strong>6</strong>, fits perfectly with the observed betting behavior, particularly the decision to <strong>bet</strong> all three streets with the sizing increasing as their hand improved on the river."
   }
 }
