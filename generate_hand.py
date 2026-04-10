@@ -134,7 +134,7 @@ def is_quality_hand(opp_cards, community):
 
 
 # ─── Narrative templates (hand-type specific) ─────────────
-def build_narrative(opp_cards, community):
+def build_narrative(opp_cards, your_cards, community):
     """
     Returns (events, explanation, ctx) where ctx is the opp_analysis dict.
     All narrative choices are driven by ctx so they accurately reflect what
@@ -152,10 +152,13 @@ def build_narrative(opp_cards, community):
     lbl = card_label(opp_cards)
     ctx = opp_analysis(opp_cards, community)
 
+    your_label = f"{display(your_cards[0]['rank'])}, {display(your_cards[1]['rank'])}"
+    your_prefix = f"Your cards — {your_label}. "
+
     if hr >= HAND_RANK['Full House']:
         # Monster — slow play then trap
         events = [
-            {'icon':'💰','text':'You raised before the cards were dealt. Your opponent called.'},
+            {'icon':'💰','text':f'{your_prefix}You raised before the cards were dealt. Your opponent called.'},
             {'icon':'🃏','text':f'<strong>Flop</strong> — {fn}. You bet. <strong>Your opponent just called.</strong>'},
             {'icon':'🃏','text':f'<strong>Turn</strong> — {tn}. You bet again. <strong>Your opponent raised you.</strong>'},
             {'icon':'🌊','text':f'<strong>River</strong> — {rn}. Your opponent <strong>moved all-in.</strong>'},
@@ -168,7 +171,7 @@ def build_narrative(opp_cards, community):
 
     elif hr == HAND_RANK['Flush']:
         events = [
-            {'icon':'💰','text':'Your opponent called your raise before the cards were dealt.'},
+            {'icon':'💰','text':f'{your_prefix}Your opponent called your raise before the cards were dealt.'},
             {'icon':'🃏','text':f'<strong>Flop</strong> — {fn}. You bet. <strong>Your opponent called.</strong>'},
             {'icon':'🃏','text':f'<strong>Turn</strong> — {tn}. You checked. <strong>Your opponent bet.</strong>'},
             {'icon':'🌊','text':f'<strong>River</strong> — {rn}. Your opponent <strong>bet large — about the size of the pot.</strong>'},
@@ -181,7 +184,7 @@ def build_narrative(opp_cards, community):
 
     elif hr == HAND_RANK['Straight']:
         events = [
-            {'icon':'💰','text':'Both players called a raise before the cards were dealt.'},
+            {'icon':'💰','text':f'{your_prefix}Both players called a raise before the cards were dealt.'},
             {'icon':'🃏','text':f'<strong>Flop</strong> — {fn}. You bet. <strong>Your opponent raised.</strong>'},
             {'icon':'🃏','text':f'<strong>Turn</strong> — {tn}. Your opponent led out with a bet. <strong>You called.</strong>'},
             {'icon':'🌊','text':f'<strong>River</strong> — {rn}. Your opponent <strong>fired again — half the pot.</strong>'},
@@ -222,7 +225,7 @@ def build_narrative(opp_cards, community):
         else:
             # Had two pair from the flop, bet all streets
             events = [
-                {'icon':'💰','text':'Your opponent raised before the cards were dealt. You called.'},
+                {'icon':'💰','text':f'{your_prefix}Your opponent raised before the cards were dealt. You called.'},
                 {'icon':'🃏','text':f'<strong>Flop</strong> — {fn}. Your opponent bet. <strong>You called.</strong>'},
                 {'icon':'🃏','text':f'<strong>Turn</strong> — {tn}. <strong>Your opponent bet again — bigger.</strong>'},
                 {'icon':'🌊','text':f'<strong>River</strong> — {rn}. Your opponent <strong>fired a large river bet.</strong>'},
@@ -235,7 +238,7 @@ def build_narrative(opp_cards, community):
 
     elif hr == HAND_RANK['One Pair'] and ctx['overpair']:
         events = [
-            {'icon':'💰','text':'Your opponent raised before the cards were dealt. You called.'},
+            {'icon':'💰','text':f'{your_prefix}Your opponent raised before the cards were dealt. You called.'},
             {'icon':'🃏','text':f'<strong>Flop</strong> — {fn}. Your opponent bet. <strong>You called.</strong>'},
             {'icon':'🃏','text':f'<strong>Turn</strong> — {tn}. Your opponent bet again. <strong>You called.</strong>'},
             {'icon':'🌊','text':f'<strong>River</strong> — {rn}. <strong>Your opponent checked — then called your bet.</strong>'},
@@ -431,7 +434,8 @@ def llm_narrative(opp_cards, your_cards, community, template_events, template_ex
     flop, turn, river = community[:3], community[3], community[4]
     fn = ', '.join(rank_name(c['rank']) for c in flop)
     tn, rn = rank_name(turn['rank']), rank_name(river['rank'])
-    lbl    = card_label(opp_cards)
+    lbl        = card_label(opp_cards)
+    your_label = f"{display(your_cards[0]['rank'])}, {display(your_cards[1]['rank'])}"
 
     scaffold = '\n'.join(f'- {e["text"]}' for e in template_events)
 
@@ -458,7 +462,7 @@ TEMPLATE EXPLANATION TO REWRITE:
 Return ONLY this JSON — no markdown, no extra text:
 {{
   "events": [
-    {{"icon": "💰", "text": "pre-flop action in 1-2 sentences"}},
+    {{"icon": "💰", "text": "Your cards — {your_label}. pre-flop action in 1-2 sentences"}},
     {{"icon": "🃏", "text": "<strong>Flop</strong> — {fn}. what happened on the flop"}},
     {{"icon": "🃏", "text": "<strong>Turn</strong> — {tn}. what happened on the turn"}},
     {{"icon": "🌊", "text": "<strong>River</strong> — {rn}. the decisive river action"}}
@@ -471,7 +475,8 @@ Rules:
 - CRITICAL: The explanation must correctly state that {lbl} makes {ctx['river_h']} — do not invent a different hand
 - Use <strong> tags around card names and key actions
 - Each event must be 1-2 punchy sentences
-- The betting actions in events must match the template (calls, raises, checks) — only rewrite the prose style"""
+- The betting actions in events must match the template (calls, raises, checks) — only rewrite the prose style
+- CRITICAL: The first event text MUST start exactly with "Your cards — {your_label}. " followed by the pre-flop action"""
 
     for attempt in range(3):
         resp = requests.post(
@@ -518,7 +523,7 @@ def generate_daily_hand():
             break
         print(f'   Attempt {attempt+1}: {hand_name(opp_cards, community)} — skipped')
 
-    events, explanation, ctx = build_narrative(opp_cards, community)
+    events, explanation, ctx = build_narrative(opp_cards, your_cards, community)
 
     used_llm = False
     try:
