@@ -1,65 +1,91 @@
 {
-  "date": "2026-04-12T02:08:58",
+  "date": "2026-04-13T02:13:44",
   "hand": {
     "title": "Daily Hand",
     "events": [
       {
         "icon": "\ud83d\udcb0",
-        "text": "You raised before the cards were dealt. Your opponent called."
+        "text": "<strong>Your cards \u2014 7, J.</strong> You raised aggressively before the flop, and your opponent called, setting the stage for a potentially explosive hand."
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Flop</strong> \u2014 5, Queen, 10. You bet. <strong>Your opponent called</strong>, staying patient."
+        "text": "<strong>Flop</strong> \u2014 7, 9, <strong>Ace</strong>. Your opponent <strong>checked</strong>, and you seized the opportunity to <strong>bet</strong>, which they <strong>called</strong>, indicating they might have hit something."
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Turn</strong> \u2014 King. You bet. <strong>Your opponent raised</strong> \u2014 they just connected."
+        "text": "<strong>Turn</strong> \u2014 <strong>Jack</strong>. Both players <strong>checked</strong>, as the board failed to improve either player's hand, leaving the tension intact."
       },
       {
         "icon": "\ud83c\udf0a",
-        "text": "<strong>River</strong> \u2014 8. Your opponent <strong>bet again when checked to.</strong>"
+        "text": "<strong>River</strong> \u2014 <strong>10</strong>. Your opponent <strong>led out with a bet</strong>, attempting to extract value from their hand, putting you in a tough decision-making spot."
       }
     ],
     "yourCards": [
       [
         "7",
-        "s"
+        "c"
       ],
       [
-        "A",
-        "d"
+        "J",
+        "h"
       ]
     ],
     "community": [
       [
-        "5",
+        "7",
         "d"
       ],
       [
-        "Q",
-        "h"
+        "9",
+        "s"
+      ],
+      [
+        "A",
+        "c"
+      ],
+      [
+        "J",
+        "c"
       ],
       [
         "T",
         "d"
-      ],
-      [
-        "K",
-        "d"
-      ],
-      [
-        "8",
-        "s"
       ]
     ],
-    "correct": 1,
+    "correct": 3,
     "choices": [
+      {
+        "label": "10 5",
+        "cards": [
+          [
+            "T",
+            "s"
+          ],
+          [
+            "5",
+            "h"
+          ]
+        ]
+      },
+      {
+        "label": "Q 8",
+        "cards": [
+          [
+            "Q",
+            "h"
+          ],
+          [
+            "8",
+            "d"
+          ]
+        ]
+      },
       {
         "label": "3 Q",
         "cards": [
           [
             "3",
-            "c"
+            "s"
           ],
           [
             "Q",
@@ -68,51 +94,25 @@
         ]
       },
       {
-        "label": "K J",
+        "label": "3 A",
         "cards": [
           [
-            "K",
-            "s"
+            "3",
+            "c"
           ],
           [
-            "J",
-            "s"
-          ]
-        ]
-      },
-      {
-        "label": "J 9",
-        "cards": [
-          [
-            "J",
-            "d"
-          ],
-          [
-            "9",
-            "d"
-          ]
-        ]
-      },
-      {
-        "label": "4 J",
-        "cards": [
-          [
-            "4",
-            "s"
-          ],
-          [
-            "J",
+            "A",
             "h"
           ]
         ]
       }
     ],
     "wrongReasons": [
-      "3 Q has similar strength, but look at when the aggression shifted \u2014 the turn card connects with the correct hand in a way it doesn't connect with 3 Q.",
-      null,
-      "J 9 makes a straight flush here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
-      "4 J doesn't benefit from the turn card the way the correct hand does. A player holding only high card wouldn't have the confidence to raise on that street."
+      "10 5 plays similarly, but the correct hand pairs a specific board card that 10 5 doesn't. Look at which hole card ranks actually appear on the board.",
+      "Q 8 makes a straight here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
+      "With only high card, 3 Q wouldn't commit chips across multiple streets. This betting line requires a genuinely made hand from the flop onward.",
+      null
     ],
-    "explanation": "<strong>Answer: K J</strong><br><br>Your opponent called the flop with overcards, then the turn card gave them a pair. The raise on the turn \u2014 right after that card landed \u2014 is the tell: passive until they hit, then immediately aggressive."
+    "explanation": "<strong>Answer: 3 A</strong><br><br>Your opponent's hand, **3 A**, made **One Pair** on the flop and didn't improve on the turn or river. They played it passively at first, **checking** and **calling**, before **leading out with a bet** on the river to extract thin value, indicating a medium-strength made hand."
   }
 }
