@@ -1,118 +1,118 @@
 {
-  "date": "2026-04-13T02:13:44",
+  "date": "2026-04-14T02:07:56",
   "hand": {
     "title": "Daily Hand",
     "events": [
       {
         "icon": "\ud83d\udcb0",
-        "text": "<strong>Your cards \u2014 7, J.</strong> You raised aggressively before the flop, and your opponent called, setting the stage for a potentially explosive hand."
+        "text": "<strong>Your cards \u2014 9, 3.</strong> You raised aggressively before the flop, putting pressure on your opponent, who decided to <strong>call</strong> and see the community cards."
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Flop</strong> \u2014 7, 9, <strong>Ace</strong>. Your opponent <strong>checked</strong>, and you seized the opportunity to <strong>bet</strong>, which they <strong>called</strong>, indicating they might have hit something."
+        "text": "<strong>Flop</strong> \u2014 5, <strong>Jack</strong>, 7. Your opponent <strong>checked</strong>, giving you the opportunity to <strong>bet</strong>, which they ultimately <strong>called</strong>."
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Turn</strong> \u2014 <strong>Jack</strong>. Both players <strong>checked</strong>, as the board failed to improve either player's hand, leaving the tension intact."
+        "text": "<strong>Turn</strong> \u2014 9. Both players <strong>checked</strong>, opting for a cautious approach and waiting for the final community card."
       },
       {
         "icon": "\ud83c\udf0a",
-        "text": "<strong>River</strong> \u2014 <strong>10</strong>. Your opponent <strong>led out with a bet</strong>, attempting to extract value from their hand, putting you in a tough decision-making spot."
+        "text": "<strong>River</strong> \u2014 8. Your opponent decided to <strong>lead out with a bet</strong>, attempting to extract value from their hand."
       }
     ],
     "yourCards": [
       [
-        "7",
-        "c"
+        "9",
+        "h"
       ],
       [
-        "J",
+        "3",
         "h"
       ]
     ],
     "community": [
       [
-        "7",
+        "5",
+        "s"
+      ],
+      [
+        "J",
         "d"
+      ],
+      [
+        "7",
+        "s"
       ],
       [
         "9",
         "s"
       ],
       [
-        "A",
-        "c"
-      ],
-      [
-        "J",
-        "c"
-      ],
-      [
-        "T",
+        "8",
         "d"
       ]
     ],
-    "correct": 3,
+    "correct": 1,
     "choices": [
       {
-        "label": "10 5",
+        "label": "A 8",
         "cards": [
           [
-            "T",
-            "s"
-          ],
-          [
-            "5",
-            "h"
-          ]
-        ]
-      },
-      {
-        "label": "Q 8",
-        "cards": [
-          [
-            "Q",
-            "h"
-          ],
-          [
-            "8",
-            "d"
-          ]
-        ]
-      },
-      {
-        "label": "3 Q",
-        "cards": [
-          [
-            "3",
-            "s"
-          ],
-          [
-            "Q",
-            "s"
-          ]
-        ]
-      },
-      {
-        "label": "3 A",
-        "cards": [
-          [
-            "3",
+            "A",
             "c"
           ],
           [
-            "A",
+            "8",
+            "s"
+          ]
+        ]
+      },
+      {
+        "label": "Q J",
+        "cards": [
+          [
+            "Q",
+            "d"
+          ],
+          [
+            "J",
+            "s"
+          ]
+        ]
+      },
+      {
+        "label": "Q 10",
+        "cards": [
+          [
+            "Q",
             "h"
+          ],
+          [
+            "T",
+            "c"
+          ]
+        ]
+      },
+      {
+        "label": "4 K",
+        "cards": [
+          [
+            "4",
+            "c"
+          ],
+          [
+            "K",
+            "c"
           ]
         ]
       }
     ],
     "wrongReasons": [
-      "10 5 plays similarly, but the correct hand pairs a specific board card that 10 5 doesn't. Look at which hole card ranks actually appear on the board.",
-      "Q 8 makes a straight here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
-      "With only high card, 3 Q wouldn't commit chips across multiple streets. This betting line requires a genuinely made hand from the flop onward.",
-      null
+      "A 8 plays similarly, but the correct hand pairs a specific board card that A 8 doesn't. Look at which hole card ranks actually appear on the board.",
+      null,
+      "Q 10 makes a straight here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
+      "With only high card, 4 K wouldn't commit chips across multiple streets. This betting line requires a genuinely made hand from the flop onward."
     ],
-    "explanation": "<strong>Answer: 3 A</strong><br><br>Your opponent's hand, **3 A**, made **One Pair** on the flop and didn't improve on the turn or river. They played it passively at first, **checking** and **calling**, before **leading out with a bet** on the river to extract thin value, indicating a medium-strength made hand."
+    "explanation": "<strong>Answer: Q J</strong><br><br>Your opponent likely had a medium-strength hand, making <strong>One Pair</strong> on the flop with the <strong>Jack</strong>. They played it passively, <strong>checking</strong> and <strong>calling</strong> on the flop and turn, before <strong>leading out with a bet</strong> on the river to extract thin value, indicating they had a hand like <strong>Q J</strong> that didn't improve beyond <strong>One Pair</strong>."
   }
 }
