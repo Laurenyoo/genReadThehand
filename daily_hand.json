@@ -1,46 +1,42 @@
 {
-  "date": "2026-04-14T02:07:56",
+  "date": "2026-04-15T02:05:16",
   "hand": {
     "title": "Daily Hand",
     "events": [
       {
         "icon": "\ud83d\udcb0",
-        "text": "<strong>Your cards \u2014 9, 3.</strong> You raised aggressively before the flop, putting pressure on your opponent, who decided to <strong>call</strong> and see the community cards."
+        "text": "<strong>Your cards \u2014 3, J.</strong> You raised aggressively before the flop, putting pressure on your opponent, who decided to <strong>call</strong> and see the community cards."
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Flop</strong> \u2014 5, <strong>Jack</strong>, 7. Your opponent <strong>checked</strong>, giving you the opportunity to <strong>bet</strong>, which they ultimately <strong>called</strong>."
+        "text": "<strong>Flop</strong> \u2014 King, 10, 9. You <strong>bet</strong> to test your opponent's resolve, and they <strong>called</strong> again, still in the dark."
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Turn</strong> \u2014 9. Both players <strong>checked</strong>, opting for a cautious approach and waiting for the final community card."
+        "text": "<strong>Turn</strong> \u2014 3. You <strong>bet</strong> once more, trying to build the pot, and your opponent <strong>called</strong> for the second time, showing remarkable patience."
       },
       {
         "icon": "\ud83c\udf0a",
-        "text": "<strong>River</strong> \u2014 8. Your opponent decided to <strong>lead out with a bet</strong>, attempting to extract value from their hand."
+        "text": "<strong>River</strong> \u2014 Queen. The board paired one of your opponent's hole cards, and they suddenly <strong>led out with a confident bet</strong>, turning the tables on you."
       }
     ],
     "yourCards": [
       [
-        "9",
-        "h"
+        "3",
+        "s"
       ],
       [
-        "3",
+        "J",
         "h"
       ]
     ],
     "community": [
       [
-        "5",
+        "K",
         "s"
       ],
       [
-        "J",
-        "d"
-      ],
-      [
-        "7",
+        "T",
         "s"
       ],
       [
@@ -48,71 +44,75 @@
         "s"
       ],
       [
-        "8",
+        "3",
+        "d"
+      ],
+      [
+        "Q",
         "d"
       ]
     ],
-    "correct": 1,
+    "correct": 0,
     "choices": [
       {
-        "label": "A 8",
+        "label": "Q 5",
         "cards": [
           [
-            "A",
+            "Q",
             "c"
           ],
           [
+            "5",
+            "s"
+          ]
+        ]
+      },
+      {
+        "label": "8 10",
+        "cards": [
+          [
             "8",
-            "s"
-          ]
-        ]
-      },
-      {
-        "label": "Q J",
-        "cards": [
-          [
-            "Q",
-            "d"
-          ],
-          [
-            "J",
-            "s"
-          ]
-        ]
-      },
-      {
-        "label": "Q 10",
-        "cards": [
-          [
-            "Q",
             "h"
           ],
           [
             "T",
+            "h"
+          ]
+        ]
+      },
+      {
+        "label": "J 7",
+        "cards": [
+          [
+            "J",
+            "s"
+          ],
+          [
+            "7",
             "c"
           ]
         ]
       },
       {
-        "label": "4 K",
+        "label": "6 7",
         "cards": [
           [
-            "4",
+            "6",
             "c"
           ],
           [
-            "K",
-            "c"
+            "7",
+            "s"
           ]
         ]
       }
     ],
     "wrongReasons": [
-      "A 8 plays similarly, but the correct hand pairs a specific board card that A 8 doesn't. Look at which hole card ranks actually appear on the board.",
       null,
-      "Q 10 makes a straight here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
-      "With only high card, 4 K wouldn't commit chips across multiple streets. This betting line requires a genuinely made hand from the flop onward."
+      "8 10 is close, but the river lead is the tell. The correct hand picked up more on the river than 8 10 would have.",
+      "J 7 makes a straight here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
+      "6 7 has little reason to lead the river here \u2014 high card can't comfortably go for value after calling two streets."
     ],
-    "explanation": "<strong>Answer: Q J</strong><br><br>Your opponent likely had a medium-strength hand, making <strong>One Pair</strong> on the flop with the <strong>Jack</strong>. They played it passively, <strong>checking</strong> and <strong>calling</strong> on the flop and turn, before <strong>leading out with a bet</strong> on the river to extract thin value, indicating they had a hand like <strong>Q J</strong> that didn't improve beyond <strong>One Pair</strong>."
+    "explanation": "<strong>Answer: Q 5</strong><br><br>Your opponent called two streets with nothing but overcards, then the river card paired one of their hole cards, giving them <strong>One Pair</strong>. The sudden lead on the river \u2014 after calling twice \u2014 is the tell: they finally hit something and went for value on the <strong>River</strong>."
   }
 }
