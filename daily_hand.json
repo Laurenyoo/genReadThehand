@@ -1,118 +1,118 @@
 {
-  "date": "2026-04-17T02:09:15",
+  "date": "2026-04-18T02:00:04",
   "hand": {
     "title": "Daily Hand",
     "events": [
       {
         "icon": "\ud83d\udcb0",
-        "text": "<strong>Your cards \u2014 7, A.</strong> The table saw a raise, which both you and your opponent called, setting the stage for a potentially explosive hand."
+        "text": "<strong>Your cards \u2014 Q, 6.</strong> You raised aggressively before the flop, putting pressure on your opponent, who calmly <strong>called</strong> to see the next cards."
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Flop</strong> \u2014 7, 6, 9. You decided to <strong>bet</strong>, but your opponent swiftly <strong>raised</strong>, indicating they might have found something they liked in the community cards."
+        "text": "<strong>Flop</strong> \u2014 Queen, 9, 8. You <strong>bet</strong> to test your opponent's resolve, and they <strong>called</strong>, still in the hand with a <strong>high card</strong>."
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Turn</strong> \u2014 8. Your opponent took the initiative with a <strong>bet</strong>, and you chose to <strong>call</strong>, sensing the potential for a bigger pot but not wanting to commit too much just yet."
+        "text": "<strong>Turn</strong> \u2014 5. You <strong>checked</strong>, giving your opponent the opportunity to act, and they <strong>bet</strong> \u2014 bigger than expected \u2014 having just improved to <strong>one pair</strong>."
       },
       {
         "icon": "\ud83c\udf0a",
-        "text": "<strong>River</strong> \u2014 10. With the final card in place, your opponent <strong>fired again \u2014 half the pot</strong>, putting significant pressure on your decision-making process."
+        "text": "<strong>River</strong> \u2014 9. Your opponent <strong>fired again for value</strong>, confident in their <strong>two pair</strong> hand, looking to maximize their winnings."
       }
     ],
     "yourCards": [
       [
-        "7",
-        "h"
+        "Q",
+        "s"
       ],
       [
-        "A",
-        "h"
+        "6",
+        "d"
       ]
     ],
     "community": [
       [
-        "7",
+        "Q",
+        "h"
+      ],
+      [
+        "9",
         "c"
       ],
       [
-        "6",
+        "8",
+        "h"
+      ],
+      [
+        "5",
         "c"
       ],
       [
         "9",
-        "h"
-      ],
-      [
-        "8",
-        "c"
-      ],
-      [
-        "T",
-        "s"
+        "d"
       ]
     ],
     "correct": 1,
     "choices": [
       {
-        "label": "9 2",
+        "label": "5 6",
+        "cards": [
+          [
+            "5",
+            "d"
+          ],
+          [
+            "6",
+            "s"
+          ]
+        ]
+      },
+      {
+        "label": "4 5",
+        "cards": [
+          [
+            "4",
+            "h"
+          ],
+          [
+            "5",
+            "h"
+          ]
+        ]
+      },
+      {
+        "label": "9 Q",
         "cards": [
           [
             "9",
             "s"
           ],
           [
+            "Q",
+            "d"
+          ]
+        ]
+      },
+      {
+        "label": "2 10",
+        "cards": [
+          [
             "2",
             "s"
-          ]
-        ]
-      },
-      {
-        "label": "A 10",
-        "cards": [
-          [
-            "A",
-            "s"
           ],
           [
             "T",
-            "c"
-          ]
-        ]
-      },
-      {
-        "label": "J 10",
-        "cards": [
-          [
-            "J",
             "d"
-          ],
-          [
-            "T",
-            "h"
-          ]
-        ]
-      },
-      {
-        "label": "8 K",
-        "cards": [
-          [
-            "8",
-            "h"
-          ],
-          [
-            "K",
-            "h"
           ]
         ]
       }
     ],
     "wrongReasons": [
-      "9 2 has similar strength, but look at when the aggression shifted \u2014 the turn card connects with the correct hand in a way it doesn't connect with 9 2.",
+      "5 6 has similar strength, but look at when the aggression shifted \u2014 the turn card connects with the correct hand in a way it doesn't connect with 5 6.",
       null,
-      "J 10 has similar strength, but look at when the aggression shifted \u2014 the turn card connects with the correct hand in a way it doesn't connect with J 10.",
-      "8 K has similar strength, but look at when the aggression shifted \u2014 the turn card connects with the correct hand in a way it doesn't connect with 8 K."
+      "9 Q makes a full house here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
+      "2 10 doesn't benefit from the turn card the way the correct hand does. A player holding only one pair wouldn't have the confidence to raise on that street."
     ],
-    "explanation": "<strong>Answer: A 10</strong><br><br>Your opponent's hand improved significantly on the turn with the arrival of the 8, making a <strong>straight</strong>. Their consistent betting pattern, especially the aggressive bets on the turn and river, suggests they were value betting with a made hand, which aligns perfectly with holding <strong>A 10</strong>."
+    "explanation": "<strong>Answer: 4 5</strong><br><br>Your opponent's hand makes sense with the betting pattern, as they had <strong>high card</strong> on the flop, then improved to <strong>one pair</strong> on the turn, and finally to <strong>two pair</strong> on the river, leading to their aggressive betting on the turn and river to build the pot."
   }
 }
