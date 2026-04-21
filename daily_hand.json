@@ -1,29 +1,29 @@
 {
-  "date": "2026-04-20T02:13:33",
+  "date": "2026-04-21T02:09:48",
   "hand": {
     "title": "Daily Hand",
     "events": [
       {
         "icon": "\ud83d\udcb0",
-        "text": "<strong>Your cards \u2014 8, 3.</strong> You decided to call after your opponent raised before the flop, hoping to get a better read on their hand."
+        "text": "<strong>Your cards \u2014 3, 3.</strong> You kicked off the action with a raise, and your opponent decided to call, setting the stage for a thrilling showdown."
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Flop</strong> \u2014 Ace, 10, 4. Your opponent came out <strong>betting</strong>, and you chose to <strong>call</strong>, trying to stay in the hand and gather more information."
+        "text": "<strong>Flop</strong> \u2014 9, 10, Ace. You decided to <strong>bet</strong>, trying to assert your dominance, and your opponent chose to <strong>call</strong>, still in the hunt."
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Turn</strong> \u2014 5. The board didn't change much for you, and your opponent <strong>bet again</strong> with a bigger sizing, putting more pressure on your decision."
+        "text": "<strong>Turn</strong> \u2014 Jack. You <strong>checked</strong>, passing the action to your opponent, who then <strong>bet</strong> \u2014 a bigger wager than expected, signaling a potential shift in momentum."
       },
       {
         "icon": "\ud83c\udf0a",
-        "text": "<strong>River</strong> \u2014 3. The final card fell, and your opponent <strong>fired a large river bet</strong>, forcing you to make a tough decision with the hand you had."
+        "text": "<strong>River</strong> \u2014 10. Your opponent <strong>fired again for value</strong>, making a second consecutive bet, as the board paired, likely strengthening their hand."
       }
     ],
     "yourCards": [
       [
-        "8",
-        "h"
+        "3",
+        "c"
       ],
       [
         "3",
@@ -32,87 +32,87 @@
     ],
     "community": [
       [
-        "A",
-        "c"
+        "9",
+        "s"
       ],
       [
         "T",
-        "h"
-      ],
-      [
-        "4",
-        "h"
-      ],
-      [
-        "5",
-        "h"
-      ],
-      [
-        "3",
         "s"
+      ],
+      [
+        "A",
+        "d"
+      ],
+      [
+        "J",
+        "s"
+      ],
+      [
+        "T",
+        "d"
       ]
     ],
-    "correct": 2,
+    "correct": 0,
     "choices": [
       {
-        "label": "7 6",
+        "label": "6 J",
         "cards": [
-          [
-            "7",
-            "s"
-          ],
           [
             "6",
-            "s"
-          ]
-        ]
-      },
-      {
-        "label": "3 K",
-        "cards": [
-          [
-            "3",
-            "c"
-          ],
-          [
-            "K",
-            "d"
-          ]
-        ]
-      },
-      {
-        "label": "A 4",
-        "cards": [
-          [
-            "A",
-            "s"
-          ],
-          [
-            "4",
-            "c"
-          ]
-        ]
-      },
-      {
-        "label": "7 4",
-        "cards": [
-          [
-            "7",
             "h"
           ],
           [
-            "4",
-            "d"
+            "J",
+            "c"
+          ]
+        ]
+      },
+      {
+        "label": "A 8",
+        "cards": [
+          [
+            "A",
+            "c"
+          ],
+          [
+            "8",
+            "h"
+          ]
+        ]
+      },
+      {
+        "label": "10 8",
+        "cards": [
+          [
+            "T",
+            "h"
+          ],
+          [
+            "8",
+            "s"
+          ]
+        ]
+      },
+      {
+        "label": "3 5",
+        "cards": [
+          [
+            "3",
+            "h"
+          ],
+          [
+            "5",
+            "h"
           ]
         ]
       }
     ],
     "wrongReasons": [
-      "7 6 makes a straight here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
-      "With only one pair, 3 K wouldn't commit chips across multiple streets. This betting line requires a genuinely made hand from the flop onward.",
       null,
-      "With only one pair, 7 4 wouldn't commit chips across multiple streets. This betting line requires a genuinely made hand from the flop onward."
+      "A 8 has similar strength, but look at when the aggression shifted \u2014 the turn card connects with the correct hand in a way it doesn't connect with A 8.",
+      "10 8 makes a three of a kind here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
+      "3 5 doesn't benefit from the turn card the way the correct hand does. A player holding only one pair wouldn't have the confidence to raise on that street."
     ],
-    "explanation": "<strong>Answer: A 4</strong><br><br>Your opponent flopped <strong>two pair</strong> and maintained consistent pressure with their bets on all three streets, indicating a strong hand that needed protection but wasn't an overwhelming favorite. The fact that they didn't slow down on the turn or river suggests they had a hand like <strong>A 4</strong> that made <strong>two pair</strong> on the flop and didn't improve or deteriorate thereafter."
+    "explanation": "<strong>Answer: 6 J</strong><br><br>Your opponent held strong with a <strong>high card</strong> on the flop, then landed a crucial <strong>pair</strong> on the turn with the <strong>Jack</strong>, and ultimately made <strong>two pair</strong> on the river, as the <strong>10</strong> paired, explaining their sudden aggression on the turn and river."
   }
 }
