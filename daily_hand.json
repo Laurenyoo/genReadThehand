@@ -1,118 +1,118 @@
 {
-  "date": "2026-04-21T02:09:48",
+  "date": "2026-04-22T02:08:11",
   "hand": {
     "title": "Daily Hand",
     "events": [
       {
         "icon": "\ud83d\udcb0",
-        "text": "<strong>Your cards \u2014 3, 3.</strong> You kicked off the action with a raise, and your opponent decided to call, setting the stage for a thrilling showdown."
+        "text": "<strong>Your cards \u2014 Q, A.</strong> You kicked off the action with a raise, and your opponent decided to <strong>call</strong> and see a flop."
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Flop</strong> \u2014 9, 10, Ace. You decided to <strong>bet</strong>, trying to assert your dominance, and your opponent chose to <strong>call</strong>, still in the hunt."
+        "text": "<strong>Flop</strong> \u2014 <strong>6</strong>, <strong>Jack</strong>, <strong>9</strong>. You decided to <strong>bet</strong>, trying to take control of the pot, and your opponent chose to <strong>call</strong> again, still in the hunt."
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Turn</strong> \u2014 Jack. You <strong>checked</strong>, passing the action to your opponent, who then <strong>bet</strong> \u2014 a bigger wager than expected, signaling a potential shift in momentum."
+        "text": "<strong>Turn</strong> \u2014 <strong>3</strong>. You <strong>bet</strong> once more, putting more pressure on your opponent, who opted to <strong>call</strong> for the second time, remaining patient."
       },
       {
         "icon": "\ud83c\udf0a",
-        "text": "<strong>River</strong> \u2014 10. Your opponent <strong>fired again for value</strong>, making a second consecutive bet, as the board paired, likely strengthening their hand."
+        "text": "<strong>River</strong> \u2014 <strong>Ace</strong>. The board paired one of your opponent's hole cards, and they suddenly <strong>led out with a confident bet</strong>, looking to capitalize on their improved hand."
       }
     ],
     "yourCards": [
       [
-        "3",
+        "Q",
         "c"
       ],
       [
-        "3",
-        "d"
+        "A",
+        "c"
       ]
     ],
     "community": [
       [
-        "9",
-        "s"
-      ],
-      [
-        "T",
-        "s"
-      ],
-      [
-        "A",
+        "6",
         "d"
       ],
       [
         "J",
-        "s"
+        "h"
       ],
       [
-        "T",
-        "d"
+        "9",
+        "c"
+      ],
+      [
+        "3",
+        "h"
+      ],
+      [
+        "A",
+        "s"
       ]
     ],
     "correct": 0,
     "choices": [
       {
-        "label": "6 J",
+        "label": "4 A",
         "cards": [
           [
-            "6",
-            "h"
+            "4",
+            "d"
           ],
+          [
+            "A",
+            "h"
+          ]
+        ]
+      },
+      {
+        "label": "Q 9",
+        "cards": [
+          [
+            "Q",
+            "d"
+          ],
+          [
+            "9",
+            "h"
+          ]
+        ]
+      },
+      {
+        "label": "J 9",
+        "cards": [
           [
             "J",
             "c"
-          ]
-        ]
-      },
-      {
-        "label": "A 8",
-        "cards": [
-          [
-            "A",
-            "c"
           ],
           [
-            "8",
-            "h"
-          ]
-        ]
-      },
-      {
-        "label": "10 8",
-        "cards": [
-          [
-            "T",
-            "h"
-          ],
-          [
-            "8",
+            "9",
             "s"
           ]
         ]
       },
       {
-        "label": "3 5",
+        "label": "K 2",
         "cards": [
           [
-            "3",
-            "h"
+            "K",
+            "s"
           ],
           [
-            "5",
-            "h"
+            "2",
+            "c"
           ]
         ]
       }
     ],
     "wrongReasons": [
       null,
-      "A 8 has similar strength, but look at when the aggression shifted \u2014 the turn card connects with the correct hand in a way it doesn't connect with A 8.",
-      "10 8 makes a three of a kind here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
-      "3 5 doesn't benefit from the turn card the way the correct hand does. A player holding only one pair wouldn't have the confidence to raise on that street."
+      "Q 9 is close, but the river lead is the tell. The correct hand picked up more on the river than Q 9 would have.",
+      "J 9 makes a two pair here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
+      "K 2 has little reason to lead the river here \u2014 high card can't comfortably go for value after calling two streets."
     ],
-    "explanation": "<strong>Answer: 6 J</strong><br><br>Your opponent held strong with a <strong>high card</strong> on the flop, then landed a crucial <strong>pair</strong> on the turn with the <strong>Jack</strong>, and ultimately made <strong>two pair</strong> on the river, as the <strong>10</strong> paired, explaining their sudden aggression on the turn and river."
+    "explanation": "<strong>Answer: 4 A</strong><br><br>Your opponent called two streets with no apparent hand, then the **Ace** on the river paired one of their hole cards, giving them **One Pair**. The sudden **bet** on the river, after calling twice, indicates they finally hit something and went for value, making **4 A** the most likely hand."
   }
 }
