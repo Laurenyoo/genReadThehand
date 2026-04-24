@@ -1,118 +1,118 @@
 {
-  "date": "2026-04-23T02:11:52",
+  "date": "2026-04-24T02:12:20",
   "hand": {
     "title": "Daily Hand",
     "events": [
       {
         "icon": "\ud83d\udcb0",
-        "text": "<strong>Your cards \u2014 Q, 7.</strong> Your opponent raised before the flop, and you decided to <strong>call</strong> to see how the hand would develop."
+        "text": "<strong>Your cards \u2014 9, 6.</strong> You raised aggressively before the flop, putting pressure on your opponent, who calmly called your bet."
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Flop</strong> \u2014 6, 8, 8. Your opponent <strong>bet</strong>, putting pressure on you, and you chose to <strong>call</strong> to stay in the hand."
+        "text": "<strong>Flop</strong> \u2014 2, <strong>Ace</strong>, 4. Your opponent <strong>checked</strong>, giving you the opportunity to <strong>bet</strong>, which they ultimately <strong>called</strong>."
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Turn</strong> \u2014 9. Your opponent <strong>bet again</strong>, this time with a <strong>bigger</strong> wager, and you still opted to <strong>call</strong> to see the river."
+        "text": "<strong>Turn</strong> \u2014 5. Both players <strong>checked</strong>, as the board failed to deliver any significant changes, leaving the situation unchanged."
       },
       {
         "icon": "\ud83c\udf0a",
-        "text": "<strong>River</strong> \u2014 4. Your opponent <strong>fired a large river bet</strong>, making you decide how to proceed with caution."
+        "text": "<strong>River</strong> \u2014 7. With the board still unchanged, your opponent decided to <strong>lead out with a bet</strong>, attempting to extract value from their hand."
       }
     ],
     "yourCards": [
       [
-        "Q",
-        "c"
+        "9",
+        "h"
       ],
       [
-        "7",
-        "c"
+        "6",
+        "h"
       ]
     ],
     "community": [
       [
-        "6",
-        "h"
-      ],
-      [
-        "8",
+        "2",
         "s"
       ],
       [
-        "8",
+        "A",
         "c"
       ],
       [
-        "9",
-        "d"
+        "4",
+        "h"
       ],
       [
-        "4",
+        "5",
+        "c"
+      ],
+      [
+        "7",
         "s"
       ]
     ],
-    "correct": 0,
+    "correct": 3,
     "choices": [
       {
-        "label": "7 7",
+        "label": "10 7",
         "cards": [
-          [
-            "7",
-            "s"
-          ],
-          [
-            "7",
-            "d"
-          ]
-        ]
-      },
-      {
-        "label": "4 A",
-        "cards": [
-          [
-            "4",
-            "c"
-          ],
-          [
-            "A",
-            "h"
-          ]
-        ]
-      },
-      {
-        "label": "8 10",
-        "cards": [
-          [
-            "8",
-            "d"
-          ],
           [
             "T",
             "h"
+          ],
+          [
+            "7",
+            "c"
           ]
         ]
       },
       {
-        "label": "A 3",
+        "label": "10 3",
         "cards": [
           [
-            "A",
-            "d"
+            "T",
+            "s"
           ],
           [
             "3",
             "h"
           ]
         ]
+      },
+      {
+        "label": "10 6",
+        "cards": [
+          [
+            "T",
+            "d"
+          ],
+          [
+            "6",
+            "c"
+          ]
+        ]
+      },
+      {
+        "label": "A 6",
+        "cards": [
+          [
+            "A",
+            "d"
+          ],
+          [
+            "6",
+            "d"
+          ]
+        ]
       }
     ],
     "wrongReasons": [
-      null,
-      "4 A plays similarly, but the correct hand pairs a specific board card that 4 A doesn't. Look at which hole card ranks actually appear on the board.",
-      "8 10 makes a three of a kind here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
-      "With only one pair, A 3 wouldn't commit chips across multiple streets. This betting line requires a genuinely made hand from the flop onward."
+      "10 7 plays similarly, but the correct hand pairs a specific board card that 10 7 doesn't. Look at which hole card ranks actually appear on the board.",
+      "10 3 makes a straight here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
+      "With only high card, 10 6 wouldn't commit chips across multiple streets. This betting line requires a genuinely made hand from the flop onward.",
+      null
     ],
-    "explanation": "<strong>Answer: 7 7</strong><br><br>Your opponent flopped **Two Pair** and maintained consistent pressure with bets on all three streets, with increasing sizing, indicating a strong hand that needed protection but wasn't a monster. The fact that they didn't change their betting pattern after the turn and river suggests their hand didn't improve beyond **Two Pair**."
+    "explanation": "<strong>Answer: A 6</strong><br><br>Your opponent likely flopped a pair of <strong>Aces</strong> but played it cautiously, <strong>checking</strong> and <strong>calling</strong> on the flop, then <strong>checking</strong> on the turn, before finally deciding to <strong>bet</strong> on the river to extract thin value, indicating a medium-strength made hand of one pair."
   }
 }
