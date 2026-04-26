@@ -1,118 +1,118 @@
 {
-  "date": "2026-04-25T02:02:18",
+  "date": "2026-04-26T02:24:30",
   "hand": {
     "title": "Daily Hand",
     "events": [
       {
         "icon": "\ud83d\udcb0",
-        "text": "<strong>Your cards \u2014 Q, 4.</strong> You kicked off the action with a raise, and your opponent decided to <strong>call</strong>, setting the stage for a thrilling hand."
+        "text": "<strong>Your cards \u2014 A, 10.</strong> Your opponent raised before the flop, and you decided to <strong>call</strong>."
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Flop</strong> \u2014 King, 7, 2. You <strong>bet</strong> to test the waters, and your opponent opted to <strong>call</strong>, keeping their intentions hidden."
+        "text": "<strong>Flop</strong> \u2014 9, 9, 8. Your opponent <strong>bet</strong>, and you chose to <strong>call</strong>, staying in the hand."
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Turn</strong> \u2014 4. You <strong>bet</strong> again, trying to build the pot, but your opponent <strong>raised</strong>, signaling they were still very much in the game."
+        "text": "<strong>Turn</strong> \u2014 10. Your opponent <strong>bet again</strong>, this time with a <strong>bigger</strong> wager, and you still <strong>called</strong>."
       },
       {
         "icon": "\ud83c\udf0a",
-        "text": "<strong>River</strong> \u2014 King. With the final community card in place, your opponent <strong>moved all-in</strong>, putting maximum pressure on you to make a tough decision."
+        "text": "<strong>River</strong> \u2014 8. Your opponent <strong>fired a large river bet</strong>, putting maximum pressure on your decision."
       }
     ],
     "yourCards": [
       [
-        "Q",
-        "s"
+        "A",
+        "c"
       ],
       [
-        "4",
+        "T",
         "d"
       ]
     ],
     "community": [
       [
-        "K",
-        "s"
-      ],
-      [
-        "7",
+        "9",
         "c"
       ],
       [
-        "2",
+        "9",
         "h"
       ],
       [
-        "4",
+        "8",
         "s"
       ],
       [
-        "K",
-        "d"
+        "T",
+        "h"
+      ],
+      [
+        "8",
+        "c"
       ]
     ],
-    "correct": 2,
+    "correct": 3,
     "choices": [
-      {
-        "label": "10 8",
-        "cards": [
-          [
-            "T",
-            "s"
-          ],
-          [
-            "8",
-            "c"
-          ]
-        ]
-      },
-      {
-        "label": "3 9",
-        "cards": [
-          [
-            "3",
-            "h"
-          ],
-          [
-            "9",
-            "c"
-          ]
-        ]
-      },
       {
         "label": "K 7",
         "cards": [
           [
             "K",
-            "c"
+            "h"
           ],
           [
             "7",
+            "d"
+          ]
+        ]
+      },
+      {
+        "label": "9 8",
+        "cards": [
+          [
+            "9",
+            "d"
+          ],
+          [
+            "8",
             "h"
           ]
         ]
       },
       {
-        "label": "5 9",
+        "label": "A K",
         "cards": [
           [
-            "5",
-            "h"
+            "A",
+            "s"
           ],
           [
-            "9",
+            "K",
+            "s"
+          ]
+        ]
+      },
+      {
+        "label": "4 3",
+        "cards": [
+          [
+            "4",
+            "c"
+          ],
+          [
+            "3",
             "s"
           ]
         ]
       }
     ],
     "wrongReasons": [
-      "10 8 has little reason to lead the river here \u2014 one pair can't comfortably go for value after calling two streets.",
-      "3 9 has little reason to lead the river here \u2014 one pair can't comfortably go for value after calling two streets.",
-      null,
-      "5 9 has little reason to lead the river here \u2014 one pair can't comfortably go for value after calling two streets."
+      "K 7 is close, but the river lead is the tell. The correct hand picked up more on the river than K 7 would have.",
+      "9 8 makes a full house here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
+      "A K is close, but the river lead is the tell. The correct hand picked up more on the river than A K would have.",
+      null
     ],
-    "explanation": "<strong>Answer: K 7</strong><br><br>Your opponent flopped <strong>Two Pair</strong> and played it cautiously, <strong>calling</strong> on the flop to disguise their hand. On the <strong>river</strong>, they made a <strong>Full House</strong> with the <strong>King</strong>, and then <strong>moved all-in</strong>, turning their earlier restraint into an aggressive trap."
+    "explanation": "<strong>Answer: 4 3</strong><br><br>Your opponent had a strong hand from the start, but only had **One Pair** on the **flop** and **turn**. It wasn't until the **river** that their hand improved to **Two Pair**, with the **8** connecting with their hole card, leading to a confident **large river bet**."
   }
 }
