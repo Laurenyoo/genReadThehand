@@ -1,118 +1,118 @@
 {
-  "date": "2026-05-05T02:25:46",
+  "date": "2026-05-06T02:29:42",
   "hand": {
     "title": "Daily Hand",
     "events": [
       {
         "icon": "\ud83d\udcb0",
-        "text": "<strong>Your cards \u2014 A, 4.</strong> Both players called a raise before the cards were dealt."
+        "text": "You raised before the cards were dealt. Your opponent called."
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Flop</strong> \u2014 Jack, 9, 8. You bet. <strong>Your opponent raised.</strong>"
+        "text": "<strong>Flop</strong> \u2014 3, 10, 8. You bet. <strong>Your opponent called</strong>, staying patient."
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Turn</strong> \u2014 6. Your opponent led out with a bet. <strong>You called.</strong>"
+        "text": "<strong>Turn</strong> \u2014 Queen. You bet. <strong>Your opponent raised</strong> \u2014 they just connected."
       },
       {
         "icon": "\ud83c\udf0a",
-        "text": "<strong>River</strong> \u2014 Ace. Your opponent <strong>fired again \u2014 half the pot.</strong>"
+        "text": "<strong>River</strong> \u2014 9. Your opponent <strong>bet again when checked to.</strong>"
       }
     ],
     "yourCards": [
       [
-        "A",
-        "d"
+        "3",
+        "c"
       ],
       [
-        "4",
-        "c"
+        "K",
+        "s"
       ]
     ],
     "community": [
       [
-        "J",
+        "3",
+        "h"
+      ],
+      [
+        "T",
+        "d"
+      ],
+      [
+        "8",
+        "h"
+      ],
+      [
+        "Q",
         "c"
       ],
       [
         "9",
-        "c"
-      ],
-      [
-        "8",
         "d"
-      ],
-      [
-        "6",
-        "h"
-      ],
-      [
-        "A",
-        "c"
       ]
     ],
-    "correct": 1,
+    "correct": 0,
     "choices": [
       {
-        "label": "6 2",
-        "cards": [
-          [
-            "6",
-            "c"
-          ],
-          [
-            "2",
-            "c"
-          ]
-        ]
-      },
-      {
-        "label": "7 10",
-        "cards": [
-          [
-            "7",
-            "d"
-          ],
-          [
-            "T",
-            "s"
-          ]
-        ]
-      },
-      {
-        "label": "4 2",
-        "cards": [
-          [
-            "4",
-            "h"
-          ],
-          [
-            "2",
-            "h"
-          ]
-        ]
-      },
-      {
-        "label": "K 5",
+        "label": "K Q",
         "cards": [
           [
             "K",
-            "s"
+            "c"
           ],
           [
-            "5",
+            "Q",
             "h"
+          ]
+        ]
+      },
+      {
+        "label": "10 7",
+        "cards": [
+          [
+            "T",
+            "h"
+          ],
+          [
+            "7",
+            "d"
+          ]
+        ]
+      },
+      {
+        "label": "J 9",
+        "cards": [
+          [
+            "J",
+            "c"
+          ],
+          [
+            "9",
+            "h"
+          ]
+        ]
+      },
+      {
+        "label": "4 A",
+        "cards": [
+          [
+            "4",
+            "c"
+          ],
+          [
+            "A",
+            "d"
           ]
         ]
       }
     ],
     "wrongReasons": [
-      "6 2 makes a flush here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
       null,
-      "With only high card, 4 2 wouldn't commit chips across multiple streets. This betting line requires a genuinely made hand from the flop onward.",
-      "With only high card, K 5 wouldn't commit chips across multiple streets. This betting line requires a genuinely made hand from the flop onward."
+      "10 7 has similar strength, but look at when the aggression shifted \u2014 the turn card connects with the correct hand in a way it doesn't connect with 10 7.",
+      "J 9 makes a straight here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
+      "4 A doesn't benefit from the turn card the way the correct hand does. A player holding only high card wouldn't have the confidence to raise on that street."
     ],
-    "explanation": "<strong>Answer: 7 10</strong><br><br>Your opponent flopped a straight and immediately raised to build the pot. They led every remaining street \u2014 consistent value betting across all streets is a strong signal of a made hand."
+    "explanation": "<strong>Answer: K Q</strong><br><br>Your opponent called the flop with overcards, then the turn card gave them a pair. The raise on the turn \u2014 right after that card landed \u2014 is the tell: passive until they hit, then immediately aggressive."
   }
 }
