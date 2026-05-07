@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-06T02:29:42",
+  "date": "2026-05-07T02:32:02",
   "hand": {
     "title": "Daily Hand",
     "events": [
@@ -9,57 +9,83 @@
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Flop</strong> \u2014 3, 10, 8. You bet. <strong>Your opponent called</strong>, staying patient."
+        "text": "<strong>Flop</strong> \u2014 5, 9, 8. You bet. <strong>Your opponent raised you back.</strong>"
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Turn</strong> \u2014 Queen. You bet. <strong>Your opponent raised</strong> \u2014 they just connected."
+        "text": "<strong>Turn</strong> \u2014 Jack. Your opponent bet out. <strong>You called.</strong>"
       },
       {
         "icon": "\ud83c\udf0a",
-        "text": "<strong>River</strong> \u2014 9. Your opponent <strong>bet again when checked to.</strong>"
+        "text": "<strong>River</strong> \u2014 8. Your opponent <strong>shoved all-in without hesitation.</strong>"
       }
     ],
     "yourCards": [
-      [
-        "3",
-        "c"
-      ],
-      [
-        "K",
-        "s"
-      ]
-    ],
-    "community": [
-      [
-        "3",
-        "h"
-      ],
-      [
-        "T",
-        "d"
-      ],
-      [
-        "8",
-        "h"
-      ],
       [
         "Q",
         "c"
       ],
       [
+        "5",
+        "s"
+      ]
+    ],
+    "community": [
+      [
+        "5",
+        "d"
+      ],
+      [
         "9",
+        "c"
+      ],
+      [
+        "8",
+        "c"
+      ],
+      [
+        "J",
+        "c"
+      ],
+      [
+        "8",
         "d"
       ]
     ],
-    "correct": 0,
+    "correct": 1,
     "choices": [
       {
-        "label": "K Q",
+        "label": "6 8",
         "cards": [
           [
-            "K",
-            "c"
+            "6",
+            "h"
+          ],
+          [
+            "8",
+            "s"
+          ]
+        ]
+      },
+      {
+        "label": "Q 8",
+        "cards": [
+          [
+            "Q",
+            "d"
+          ],
+          [
+            "8",
+            "h"
+          ]
+        ]
+      },
+      {
+        "label": "10 Q",
+        "cards": [
+          [
+            "T",
+            "h"
           ],
           [
             "Q",
@@ -68,51 +94,25 @@
         ]
       },
       {
-        "label": "10 7",
+        "label": "6 J",
         "cards": [
           [
-            "T",
-            "h"
+            "6",
+            "c"
           ],
-          [
-            "7",
-            "d"
-          ]
-        ]
-      },
-      {
-        "label": "J 9",
-        "cards": [
           [
             "J",
-            "c"
-          ],
-          [
-            "9",
-            "h"
-          ]
-        ]
-      },
-      {
-        "label": "4 A",
-        "cards": [
-          [
-            "4",
-            "c"
-          ],
-          [
-            "A",
-            "d"
+            "s"
           ]
         ]
       }
     ],
     "wrongReasons": [
+      "6 8 is close, but the river lead is the tell. The correct hand picked up more on the river than 6 8 would have.",
       null,
-      "10 7 has similar strength, but look at when the aggression shifted \u2014 the turn card connects with the correct hand in a way it doesn't connect with 10 7.",
-      "J 9 makes a straight here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
-      "4 A doesn't benefit from the turn card the way the correct hand does. A player holding only high card wouldn't have the confidence to raise on that street."
+      "10 Q makes a straight here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
+      "6 J has little reason to lead the river here \u2014 two pair can't comfortably go for value after calling two streets."
     ],
-    "explanation": "<strong>Answer: K Q</strong><br><br>Your opponent called the flop with overcards, then the turn card gave them a pair. The raise on the turn \u2014 right after that card landed \u2014 is the tell: passive until they hit, then immediately aggressive."
+    "explanation": "<strong>Answer: Q 8</strong><br><br>Your opponent flopped three of a kind and raised the flop immediately to build the pot. Sets are too strong to slow-play \u2014 they pushed their advantage on every street."
   }
 }
