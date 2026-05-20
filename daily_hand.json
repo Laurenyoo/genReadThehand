@@ -1,118 +1,118 @@
 {
-  "date": "2026-05-19T02:49:51",
+  "date": "2026-05-20T02:50:11",
   "hand": {
     "title": "Daily Hand",
     "events": [
       {
         "icon": "\ud83d\udcb0",
-        "text": "<strong>Your cards \u2014 4, J.</strong> Both players called a raise before the cards were dealt."
+        "text": "You raised before the cards were dealt. Your opponent called."
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Flop</strong> \u2014 7, 8, 4. You bet. <strong>Your opponent raised.</strong>"
+        "text": "<strong>Flop</strong> \u2014 4, 8, Jack. You bet. <strong>Your opponent raised you back.</strong>"
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Turn</strong> \u2014 3. Your opponent led out with a bet. <strong>You called.</strong>"
+        "text": "<strong>Turn</strong> \u2014 8. Your opponent bet out. <strong>You called.</strong>"
       },
       {
         "icon": "\ud83c\udf0a",
-        "text": "<strong>River</strong> \u2014 9. Your opponent <strong>fired again \u2014 half the pot.</strong>"
+        "text": "<strong>River</strong> \u2014 3. Your opponent <strong>shoved all-in without hesitation.</strong>"
       }
     ],
     "yourCards": [
+      [
+        "7",
+        "c"
+      ],
+      [
+        "9",
+        "c"
+      ]
+    ],
+    "community": [
       [
         "4",
         "s"
       ],
       [
-        "J",
-        "d"
-      ]
-    ],
-    "community": [
+        "8",
+        "s"
+      ],
       [
-        "7",
-        "c"
+        "J",
+        "h"
       ],
       [
         "8",
         "d"
       ],
       [
-        "4",
-        "c"
-      ],
-      [
         "3",
-        "s"
-      ],
-      [
-        "9",
-        "d"
+        "h"
       ]
     ],
     "correct": 1,
     "choices": [
       {
-        "label": "A K",
+        "label": "8 10",
         "cards": [
           [
-            "A",
+            "8",
             "h"
           ],
           [
-            "K",
-            "d"
+            "T",
+            "s"
           ]
         ]
       },
       {
-        "label": "6 10",
+        "label": "8 2",
+        "cards": [
+          [
+            "8",
+            "c"
+          ],
+          [
+            "2",
+            "c"
+          ]
+        ]
+      },
+      {
+        "label": "2 A",
+        "cards": [
+          [
+            "2",
+            "h"
+          ],
+          [
+            "A",
+            "s"
+          ]
+        ]
+      },
+      {
+        "label": "6 5",
         "cards": [
           [
             "6",
             "h"
           ],
           [
-            "T",
-            "h"
-          ]
-        ]
-      },
-      {
-        "label": "4 3",
-        "cards": [
-          [
-            "4",
-            "d"
-          ],
-          [
-            "3",
-            "d"
-          ]
-        ]
-      },
-      {
-        "label": "Q J",
-        "cards": [
-          [
-            "Q",
-            "d"
-          ],
-          [
-            "J",
-            "c"
+            "5",
+            "s"
           ]
         ]
       }
     ],
     "wrongReasons": [
-      "A K has little reason to lead the river here \u2014 high card can't comfortably go for value after calling two streets.",
+      "8 10 has similar strength, but look at when the aggression shifted \u2014 the turn card connects with the correct hand in a way it doesn't connect with 8 10.",
       null,
-      "4 3 has little reason to lead the river here \u2014 two pair can't comfortably go for value after calling two streets.",
-      "Q J has little reason to lead the river here \u2014 high card can't comfortably go for value after calling two streets."
+      "2 A doesn't benefit from the turn card the way the correct hand does. A player holding only one pair wouldn't have the confidence to raise on that street.",
+      "6 5 doesn't benefit from the turn card the way the correct hand does. A player holding only one pair wouldn't have the confidence to raise on that street."
     ],
-    "explanation": "<strong>Answer: 6 10</strong><br><br>Your opponent flopped a straight and immediately raised to build the pot. They led every remaining street \u2014 consistent value betting across all streets is a strong signal of a made hand."
+    "explanation": "<strong>Answer: 8 2</strong><br><br>Your opponent flopped three of a kind and raised the flop immediately to build the pot. Sets are too strong to slow-play \u2014 they pushed their advantage on every street."
   }
 }
