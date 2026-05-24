@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-23T02:38:25",
+  "date": "2026-05-24T02:50:14",
   "hand": {
     "title": "Daily Hand",
     "events": [
@@ -9,110 +9,110 @@
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Flop</strong> \u2014 7, 9, 4. Your opponent checked. You bet. <strong>Your opponent called.</strong>"
+        "text": "<strong>Flop</strong> \u2014 10, 7, 8. You bet. <strong>Your opponent called.</strong>"
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Turn</strong> \u2014 5. Both players checked."
+        "text": "<strong>Turn</strong> \u2014 4. You bet. <strong>Your opponent called again.</strong>"
       },
       {
         "icon": "\ud83c\udf0a",
-        "text": "<strong>River</strong> \u2014 King. Your opponent <strong>led out with a bet.</strong>"
+        "text": "<strong>River</strong> \u2014 9. Your opponent <strong>led out with a confident bet.</strong>"
       }
     ],
     "yourCards": [
       [
-        "7",
-        "d"
+        "J",
+        "s"
       ],
       [
-        "6",
+        "K",
         "s"
       ]
     ],
     "community": [
       [
-        "7",
-        "h"
+        "T",
+        "d"
       ],
       [
-        "9",
+        "7",
+        "d"
+      ],
+      [
+        "8",
         "h"
       ],
       [
         "4",
-        "s"
+        "c"
       ],
       [
-        "5",
-        "d"
-      ],
-      [
-        "K",
+        "9",
         "d"
       ]
     ],
-    "correct": 0,
+    "correct": 3,
     "choices": [
       {
-        "label": "A 4",
+        "label": "4 2",
         "cards": [
-          [
-            "A",
-            "c"
-          ],
           [
             "4",
-            "d"
-          ]
-        ]
-      },
-      {
-        "label": "10 10",
-        "cards": [
-          [
-            "T",
-            "c"
+            "h"
           ],
           [
-            "T",
+            "2",
             "s"
           ]
         ]
       },
       {
-        "label": "6 8",
+        "label": "J 6",
         "cards": [
+          [
+            "J",
+            "h"
+          ],
           [
             "6",
             "c"
+          ]
+        ]
+      },
+      {
+        "label": "5 2",
+        "cards": [
+          [
+            "5",
+            "h"
           ],
           [
-            "8",
+            "2",
             "h"
           ]
         ]
       },
       {
-        "label": "Q J",
+        "label": "3 9",
         "cards": [
           [
-            "Q",
+            "3",
             "h"
           ],
           [
-            "J",
-            "h"
+            "9",
+            "c"
           ]
         ]
       }
     ],
     "wrongReasons": [
-      null,
-      "10 10 plays similarly, but the correct hand pairs a specific board card that 10 10 doesn't. Look at which hole card ranks actually appear on the board.",
-      "6 8 makes a straight here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
-      "With only high card, Q J wouldn't commit chips across multiple streets. This betting line requires a genuinely made hand from the flop onward."
+      "4 2 is close, but the river lead is the tell. The correct hand picked up more on the river than 4 2 would have.",
+      "J 6 makes a straight here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
+      "5 2 has little reason to lead the river here \u2014 high card can't comfortably go for value after calling two streets.",
+      null
     ],
-    "explanation": "<strong>Answer: A 4</strong><br><br>Your opponent flopped a pair but played it passively \u2014 calling the flop and checking the turn \u2014 before leading the river to extract thin value. The check-call-check-lead line is a tell for a medium-strength made hand."
+    "explanation": "<strong>Answer: 3 9</strong><br><br>Your opponent called two streets with nothing but overcards, then the river card paired one of their hole cards. The sudden lead on the river \u2014 after calling twice \u2014 is the tell: they finally hit something and went for value."
   }
 }
