@@ -1,118 +1,118 @@
 {
-  "date": "2026-06-02T03:33:22",
+  "date": "2026-06-03T03:40:10",
   "hand": {
     "title": "Daily Hand",
     "events": [
       {
         "icon": "\ud83d\udcb0",
-        "text": "<strong>Your cards \u2014 5, Q.</strong> Your opponent raised before the cards were dealt. You called."
+        "text": "<strong>Your cards \u2014 J, 7.</strong> Both players called a raise before the cards were dealt."
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Flop</strong> \u2014 7, 6, 5. Your opponent bet. <strong>You called.</strong>"
+        "text": "<strong>Flop</strong> \u2014 King, 4, 2. You bet. <strong>Your opponent raised.</strong>"
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Turn</strong> \u2014 Jack. Your opponent bet again. <strong>You called.</strong>"
+        "text": "<strong>Turn</strong> \u2014 5. Your opponent led out with a bet. <strong>You called.</strong>"
       },
       {
         "icon": "\ud83c\udf0a",
-        "text": "<strong>River</strong> \u2014 8. <strong>Your opponent checked \u2014 then called your bet.</strong>"
+        "text": "<strong>River</strong> \u2014 3. Your opponent <strong>fired again \u2014 half the pot.</strong>"
       }
     ],
     "yourCards": [
       [
-        "5",
+        "J",
         "d"
       ],
       [
-        "Q",
+        "7",
         "s"
       ]
     ],
     "community": [
       [
-        "7",
+        "K",
         "d"
       ],
       [
-        "6",
-        "s"
+        "4",
+        "c"
+      ],
+      [
+        "2",
+        "c"
       ],
       [
         "5",
         "h"
       ],
       [
-        "J",
-        "h"
-      ],
-      [
-        "8",
+        "3",
         "h"
       ]
     ],
-    "correct": 1,
+    "correct": 2,
     "choices": [
       {
-        "label": "2 6",
+        "label": "A 4",
         "cards": [
           [
-            "2",
+            "A",
+            "s"
+          ],
+          [
+            "4",
+            "h"
+          ]
+        ]
+      },
+      {
+        "label": "8 5",
+        "cards": [
+          [
+            "8",
+            "c"
+          ],
+          [
+            "5",
             "d"
+          ]
+        ]
+      },
+      {
+        "label": "K 6",
+        "cards": [
+          [
+            "K",
+            "c"
+          ],
+          [
+            "6",
+            "h"
+          ]
+        ]
+      },
+      {
+        "label": "8 6",
+        "cards": [
+          [
+            "8",
+            "s"
           ],
           [
             "6",
             "c"
           ]
         ]
-      },
-      {
-        "label": "Q Q",
-        "cards": [
-          [
-            "Q",
-            "h"
-          ],
-          [
-            "Q",
-            "d"
-          ]
-        ]
-      },
-      {
-        "label": "A 9",
-        "cards": [
-          [
-            "A",
-            "d"
-          ],
-          [
-            "9",
-            "s"
-          ]
-        ]
-      },
-      {
-        "label": "10 K",
-        "cards": [
-          [
-            "T",
-            "d"
-          ],
-          [
-            "K",
-            "c"
-          ]
-        ]
       }
     ],
     "wrongReasons": [
-      "2 6 plays similarly, but the correct hand pairs a specific board card that 2 6 doesn't. Look at which hole card ranks actually appear on the board.",
+      "A 4 is close, but the river lead is the tell. The correct hand picked up more on the river than A 4 would have.",
+      "8 5 has little reason to lead the river here \u2014 one pair can't comfortably go for value after calling two streets.",
       null,
-      "A 9 makes a straight here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
-      "With only high card, 10 K wouldn't commit chips across multiple streets. This betting line requires a genuinely made hand from the flop onward."
+      "8 6 is close, but the river lead is the tell. The correct hand picked up more on the river than 8 6 would have."
     ],
-    "explanation": "<strong>Answer: Q Q</strong><br><br>Your opponent had an overpair and bet the flop and turn for value but checked back the river \u2014 a sign they were confident earlier but wanted pot control once the board got scarier."
+    "explanation": "<strong>Answer: K 6</strong><br><br>Your opponent flopped a straight and immediately raised to build the pot. They led every remaining street \u2014 consistent value betting across all streets is a strong signal of a made hand."
   }
 }
