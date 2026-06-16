@@ -1,91 +1,78 @@
 {
-  "date": "2026-06-15T03:44:18",
+  "date": "2026-06-16T03:38:34",
   "hand": {
     "title": "Daily Hand",
     "events": [
       {
         "icon": "\ud83d\udcb0",
-        "text": "<strong>Your cards \u2014 9, 8.</strong> Your opponent called your raise before the cards were dealt."
+        "text": "<strong>Your cards \u2014 Q, A.</strong> Your opponent raised before the cards were dealt. You called."
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Flop</strong> \u2014 Queen, 9, Jack. You bet. <strong>Your opponent called.</strong>"
+        "text": "<strong>Flop</strong> \u2014 9, Ace, 3. Your opponent bet. <strong>You called.</strong>"
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Turn</strong> \u2014 9. You checked. <strong>Your opponent bet.</strong>"
+        "text": "<strong>Turn</strong> \u2014 Jack. <strong>Your opponent bet again \u2014 bigger.</strong>"
       },
       {
         "icon": "\ud83c\udf0a",
-        "text": "<strong>River</strong> \u2014 6. Your opponent <strong>bet large \u2014 about the size of the pot.</strong>"
+        "text": "<strong>River</strong> \u2014 Jack. Your opponent <strong>fired a large river bet.</strong>"
       }
     ],
     "yourCards": [
       [
-        "9",
+        "Q",
         "d"
       ],
       [
-        "8",
-        "d"
+        "A",
+        "c"
       ]
     ],
     "community": [
       [
-        "Q",
+        "9",
         "c"
       ],
       [
-        "9",
-        "h"
+        "A",
+        "d"
+      ],
+      [
+        "3",
+        "d"
       ],
       [
         "J",
         "c"
       ],
       [
-        "9",
-        "s"
-      ],
-      [
-        "6",
-        "c"
+        "J",
+        "d"
       ]
     ],
-    "correct": 2,
+    "correct": 0,
     "choices": [
       {
-        "label": "Q Q",
+        "label": "3 5",
         "cards": [
           [
-            "Q",
-            "h"
-          ],
-          [
-            "Q",
-            "s"
-          ]
-        ]
-      },
-      {
-        "label": "10 5",
-        "cards": [
-          [
-            "T",
-            "s"
+            "3",
+            "c"
           ],
           [
             "5",
-            "s"
+            "h"
           ]
         ]
       },
       {
-        "label": "10 2",
+        "label": "9 2",
         "cards": [
           [
-            "T",
-            "c"
+            "9",
+            "h"
           ],
           [
             "2",
@@ -94,25 +81,38 @@
         ]
       },
       {
-        "label": "4 J",
+        "label": "8 6",
         "cards": [
           [
-            "4",
-            "c"
+            "8",
+            "d"
           ],
           [
-            "J",
+            "6",
             "d"
+          ]
+        ]
+      },
+      {
+        "label": "K 8",
+        "cards": [
+          [
+            "K",
+            "h"
+          ],
+          [
+            "8",
+            "c"
           ]
         ]
       }
     ],
     "wrongReasons": [
-      "Q Q makes a full house here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
-      "10 5 doesn't benefit from the turn card the way the correct hand does. A player holding only one pair wouldn't have the confidence to raise on that street.",
       null,
-      "4 J doesn't benefit from the turn card the way the correct hand does. A player holding only two pair wouldn't have the confidence to raise on that street."
+      "9 2 is close, but the river lead is the tell. The correct hand picked up more on the river than 9 2 would have.",
+      "8 6 makes a flush here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
+      "K 8 has little reason to lead the river here \u2014 one pair can't comfortably go for value after calling two streets."
     ],
-    "explanation": "<strong>Answer: 10 2</strong><br><br>Your opponent was drawing to a flush and called the flop to keep their options open. Once they hit, they bet the turn and river for value \u2014 growing aggression on later streets is a hallmark of a completed draw."
+    "explanation": "<strong>Answer: 3 5</strong><br><br>Your opponent flopped two pair and bet all three streets with growing sizing. The consistent pressure \u2014 especially the larger turn bet \u2014 signals a hand strong enough to protect but not quite a monster."
   }
 }
