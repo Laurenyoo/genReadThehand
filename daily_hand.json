@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-19T03:52:56",
+  "date": "2026-06-20T02:54:44",
   "hand": {
     "title": "Daily Hand",
     "events": [
@@ -9,110 +9,110 @@
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Flop</strong> \u2014 3, 5, 5. You bet. <strong>Your opponent called.</strong>"
+        "text": "<strong>Flop</strong> \u2014 Ace, 3, 4. You bet. <strong>Your opponent called</strong>, staying patient."
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Turn</strong> \u2014 3. You checked. <strong>Your opponent bet \u2014 bigger than expected.</strong>"
+        "text": "<strong>Turn</strong> \u2014 5. You bet. <strong>Your opponent raised</strong> \u2014 they just connected."
       },
       {
         "icon": "\ud83c\udf0a",
-        "text": "<strong>River</strong> \u2014 Queen. Your opponent <strong>fired again for value.</strong>"
+        "text": "<strong>River</strong> \u2014 7. Your opponent <strong>bet again when checked to.</strong>"
       }
     ],
     "yourCards": [
       [
-        "5",
+        "A",
         "c"
       ],
       [
-        "T",
-        "c"
+        "6",
+        "d"
       ]
     ],
     "community": [
       [
+        "A",
+        "s"
+      ],
+      [
         "3",
-        "s"
-      ],
-      [
-        "5",
-        "s"
-      ],
-      [
-        "5",
         "d"
       ],
       [
-        "3",
+        "4",
         "h"
       ],
       [
-        "Q",
-        "d"
+        "5",
+        "c"
+      ],
+      [
+        "7",
+        "h"
       ]
     ],
     "correct": 0,
     "choices": [
       {
-        "label": "8 7",
+        "label": "K 5",
         "cards": [
           [
-            "8",
-            "s"
-          ],
-          [
-            "7",
-            "s"
-          ]
-        ]
-      },
-      {
-        "label": "J 8",
-        "cards": [
-          [
-            "J",
-            "d"
-          ],
-          [
-            "8",
+            "K",
             "c"
+          ],
+          [
+            "5",
+            "s"
           ]
         ]
       },
       {
-        "label": "3 8",
+        "label": "5 K",
         "cards": [
           [
-            "3",
-            "d"
+            "5",
+            "h"
           ],
+          [
+            "K",
+            "s"
+          ]
+        ]
+      },
+      {
+        "label": "6 5",
+        "cards": [
+          [
+            "6",
+            "h"
+          ],
+          [
+            "5",
+            "d"
+          ]
+        ]
+      },
+      {
+        "label": "8 10",
+        "cards": [
           [
             "8",
-            "h"
-          ]
-        ]
-      },
-      {
-        "label": "4 2",
-        "cards": [
-          [
-            "4",
             "s"
           ],
           [
-            "2",
-            "s"
+            "T",
+            "d"
           ]
         ]
       }
     ],
     "wrongReasons": [
       null,
-      "J 8 has similar strength, but look at when the aggression shifted \u2014 the turn card connects with the correct hand in a way it doesn't connect with J 8.",
-      "3 8 makes a full house here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
-      "4 2 has similar strength, but look at when the aggression shifted \u2014 the turn card connects with the correct hand in a way it doesn't connect with 4 2."
+      "5 K has similar strength, but look at when the aggression shifted \u2014 the turn card connects with the correct hand in a way it doesn't connect with 5 K.",
+      "6 5 makes a straight here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
+      "8 10 doesn't benefit from the turn card the way the correct hand does. A player holding only high card wouldn't have the confidence to raise on that street."
     ],
-    "explanation": "<strong>Answer: 8 7</strong><br><br>Your opponent called the flop with one pair, then picked up two pair on the turn. The sudden aggression on the turn \u2014 after passivity on the flop \u2014 is the tell: they improved and immediately started building the pot."
+    "explanation": "<strong>Answer: K 5</strong><br><br>Your opponent called the flop with overcards, then the turn card gave them a pair. The raise on the turn \u2014 right after that card landed \u2014 is the tell: passive until they hit, then immediately aggressive."
   }
 }
