@@ -1,118 +1,118 @@
 {
-  "date": "2026-06-30T02:53:43",
+  "date": "2026-07-01T03:23:47",
   "hand": {
     "title": "Daily Hand",
     "events": [
       {
         "icon": "\ud83d\udcb0",
-        "text": "<strong>Your cards \u2014 5, 2.</strong> Your opponent raised before the cards were dealt. You called."
+        "text": "You raised before the cards were dealt. Your opponent called."
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Flop</strong> \u2014 2, King, King. Your opponent bet. <strong>You called.</strong>"
+        "text": "<strong>Flop</strong> \u2014 King, 3, 4. You bet. <strong>Your opponent called.</strong>"
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Turn</strong> \u2014 9. <strong>Your opponent bet again \u2014 bigger.</strong>"
+        "text": "<strong>Turn</strong> \u2014 8. You bet. <strong>Your opponent called again.</strong>"
       },
       {
         "icon": "\ud83c\udf0a",
-        "text": "<strong>River</strong> \u2014 8. Your opponent <strong>fired a large river bet.</strong>"
+        "text": "<strong>River</strong> \u2014 6. Your opponent <strong>led out with a confident bet.</strong>"
       }
     ],
     "yourCards": [
       [
-        "5",
-        "d"
+        "9",
+        "s"
       ],
       [
-        "2",
-        "h"
+        "A",
+        "s"
       ]
     ],
     "community": [
       [
-        "2",
-        "s"
-      ],
-      [
         "K",
         "d"
       ],
       [
-        "K",
-        "s"
+        "3",
+        "c"
       ],
       [
-        "9",
+        "4",
         "d"
       ],
       [
         "8",
-        "s"
+        "d"
+      ],
+      [
+        "6",
+        "h"
       ]
     ],
-    "correct": 0,
+    "correct": 2,
     "choices": [
       {
-        "label": "2 J",
-        "cards": [
-          [
-            "2",
-            "d"
-          ],
-          [
-            "J",
-            "s"
-          ]
-        ]
-      },
-      {
-        "label": "7 7",
-        "cards": [
-          [
-            "7",
-            "c"
-          ],
-          [
-            "7",
-            "s"
-          ]
-        ]
-      },
-      {
-        "label": "Q K",
-        "cards": [
-          [
-            "Q",
-            "d"
-          ],
-          [
-            "K",
-            "c"
-          ]
-        ]
-      },
-      {
-        "label": "3 6",
+        "label": "3 10",
         "cards": [
           [
             "3",
             "d"
           ],
           [
+            "T",
+            "c"
+          ]
+        ]
+      },
+      {
+        "label": "2 9",
+        "cards": [
+          [
+            "2",
+            "d"
+          ],
+          [
+            "9",
+            "d"
+          ]
+        ]
+      },
+      {
+        "label": "6 10",
+        "cards": [
+          [
             "6",
+            "d"
+          ],
+          [
+            "T",
             "h"
+          ]
+        ]
+      },
+      {
+        "label": "10 Q",
+        "cards": [
+          [
+            "T",
+            "s"
+          ],
+          [
+            "Q",
+            "c"
           ]
         ]
       }
     ],
     "wrongReasons": [
+      "3 10 is close, but the river lead is the tell. The correct hand picked up more on the river than 3 10 would have.",
+      "2 9 makes a flush here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
       null,
-      "7 7 plays similarly, but the correct hand pairs a specific board card that 7 7 doesn't. Look at which hole card ranks actually appear on the board.",
-      "Q K makes a three of a kind here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
-      "With only one pair, 3 6 wouldn't commit chips across multiple streets. This betting line requires a genuinely made hand from the flop onward."
+      "10 Q has little reason to lead the river here \u2014 high card can't comfortably go for value after calling two streets."
     ],
-    "explanation": "<strong>Answer: 2 J</strong><br><br>Your opponent flopped two pair and bet all three streets with growing sizing. The consistent pressure \u2014 especially the larger turn bet \u2014 signals a hand strong enough to protect but not quite a monster."
+    "explanation": "<strong>Answer: 6 10</strong><br><br>Your opponent called two streets with nothing but overcards, then the river card paired one of their hole cards. The sudden lead on the river \u2014 after calling twice \u2014 is the tell: they finally hit something and went for value."
   }
 }
