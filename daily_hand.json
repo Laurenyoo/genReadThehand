@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-08T02:14:17",
+  "date": "2026-07-09T02:32:31",
   "hand": {
     "title": "Daily Hand",
     "events": [
@@ -9,11 +9,11 @@
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Flop</strong> \u2014 9, 3, 6. You bet. <strong>Your opponent raised you back.</strong>"
+        "text": "<strong>Flop</strong> \u2014 Queen, 2, Ace. You bet. <strong>Your opponent raised you back.</strong>"
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Turn</strong> \u2014 2. Your opponent bet out. <strong>You called.</strong>"
+        "text": "<strong>Turn</strong> \u2014 Ace. Your opponent bet out. <strong>You called.</strong>"
       },
       {
         "icon": "\ud83c\udf0a",
@@ -22,30 +22,30 @@
     ],
     "yourCards": [
       [
-        "J",
-        "c"
+        "Q",
+        "h"
       ],
       [
-        "5",
-        "s"
+        "9",
+        "c"
       ]
     ],
     "community": [
       [
-        "9",
-        "d"
-      ],
-      [
-        "3",
-        "h"
-      ],
-      [
-        "6",
-        "h"
+        "Q",
+        "c"
       ],
       [
         "2",
+        "d"
+      ],
+      [
+        "A",
         "c"
+      ],
+      [
+        "A",
+        "s"
       ],
       [
         "J",
@@ -55,28 +55,41 @@
     "correct": 3,
     "choices": [
       {
-        "label": "10 9",
+        "label": "A 3",
         "cards": [
           [
-            "T",
-            "s"
+            "A",
+            "d"
           ],
           [
-            "9",
+            "3",
             "s"
           ]
         ]
       },
       {
-        "label": "7 10",
+        "label": "Q 3",
         "cards": [
           [
-            "7",
+            "Q",
+            "d"
+          ],
+          [
+            "3",
+            "h"
+          ]
+        ]
+      },
+      {
+        "label": "6 4",
+        "cards": [
+          [
+            "6",
             "c"
           ],
           [
-            "T",
-            "c"
+            "4",
+            "h"
           ]
         ]
       },
@@ -85,34 +98,21 @@
         "cards": [
           [
             "A",
-            "s"
+            "h"
           ],
           [
             "6",
-            "s"
-          ]
-        ]
-      },
-      {
-        "label": "3 3",
-        "cards": [
-          [
-            "3",
             "d"
-          ],
-          [
-            "3",
-            "s"
           ]
         ]
       }
     ],
     "wrongReasons": [
-      "With only one pair, 10 9 wouldn't commit chips across multiple streets. This betting line requires a genuinely made hand from the flop onward.",
-      "With only high card, 7 10 wouldn't commit chips across multiple streets. This betting line requires a genuinely made hand from the flop onward.",
-      "With only one pair, A 6 wouldn't commit chips across multiple streets. This betting line requires a genuinely made hand from the flop onward.",
+      "A 3 has similar strength, but look at when the aggression shifted \u2014 the turn card connects with the correct hand in a way it doesn't connect with A 3.",
+      "Q 3 doesn't benefit from the turn card the way the correct hand does. A player holding only two pair wouldn't have the confidence to raise on that street.",
+      "6 4 doesn't benefit from the turn card the way the correct hand does. A player holding only one pair wouldn't have the confidence to raise on that street.",
       null
     ],
-    "explanation": "<strong>Answer: 3 3</strong><br><br>Your opponent flopped three of a kind and raised the flop immediately to build the pot. Sets are too strong to slow-play \u2014 they pushed their advantage on every street."
+    "explanation": "<strong>Answer: A 6</strong><br><br>Your opponent flopped three of a kind and raised the flop immediately to build the pot. Sets are too strong to slow-play \u2014 they pushed their advantage on every street."
   }
 }
