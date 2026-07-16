@@ -1,118 +1,118 @@
 {
-  "date": "2026-07-15T01:59:39",
+  "date": "2026-07-16T02:09:29",
   "hand": {
     "title": "Daily Hand",
     "events": [
       {
         "icon": "\ud83d\udcb0",
-        "text": "<strong>Your cards \u2014 2, K.</strong> Your opponent raised before the cards were dealt. You called."
+        "text": "<strong>Your cards \u2014 10, Q.</strong> Your opponent called your raise before the cards were dealt."
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Flop</strong> \u2014 8, 8, Ace. Your opponent bet. <strong>You called.</strong>"
+        "text": "<strong>Flop</strong> \u2014 8, 3, 2. You bet. <strong>Your opponent called.</strong>"
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Turn</strong> \u2014 7. <strong>Your opponent bet again \u2014 bigger.</strong>"
+        "text": "<strong>Turn</strong> \u2014 6. You checked. <strong>Your opponent bet.</strong>"
       },
       {
         "icon": "\ud83c\udf0a",
-        "text": "<strong>River</strong> \u2014 7. Your opponent <strong>fired a large river bet.</strong>"
+        "text": "<strong>River</strong> \u2014 8. Your opponent <strong>bet large \u2014 about the size of the pot.</strong>"
       }
     ],
     "yourCards": [
       [
-        "2",
-        "h"
+        "T",
+        "s"
       ],
       [
-        "K",
+        "Q",
         "h"
       ]
     ],
     "community": [
       [
         "8",
+        "d"
+      ],
+      [
+        "3",
+        "h"
+      ],
+      [
+        "2",
+        "h"
+      ],
+      [
+        "6",
         "h"
       ],
       [
         "8",
-        "s"
-      ],
-      [
-        "A",
-        "d"
-      ],
-      [
-        "7",
-        "d"
-      ],
-      [
-        "7",
-        "c"
+        "h"
       ]
     ],
-    "correct": 2,
+    "correct": 0,
     "choices": [
       {
-        "label": "2 2",
+        "label": "J J",
         "cards": [
           [
-            "2",
-            "d"
-          ],
-          [
-            "2",
-            "c"
-          ]
-        ]
-      },
-      {
-        "label": "8 A",
-        "cards": [
-          [
-            "8",
-            "c"
-          ],
-          [
-            "A",
-            "h"
-          ]
-        ]
-      },
-      {
-        "label": "4 K",
-        "cards": [
-          [
-            "4",
-            "h"
-          ],
-          [
-            "K",
-            "c"
-          ]
-        ]
-      },
-      {
-        "label": "7 K",
-        "cards": [
-          [
-            "7",
+            "J",
             "s"
           ],
           [
-            "K",
+            "J",
+            "h"
+          ]
+        ]
+      },
+      {
+        "label": "A 7",
+        "cards": [
+          [
+            "A",
+            "c"
+          ],
+          [
+            "7",
+            "h"
+          ]
+        ]
+      },
+      {
+        "label": "6 8",
+        "cards": [
+          [
+            "6",
             "d"
+          ],
+          [
+            "8",
+            "s"
+          ]
+        ]
+      },
+      {
+        "label": "4 3",
+        "cards": [
+          [
+            "4",
+            "c"
+          ],
+          [
+            "3",
+            "c"
           ]
         ]
       }
     ],
     "wrongReasons": [
-      "2 2 is close, but the river lead is the tell. The correct hand picked up more on the river than 2 2 would have.",
-      "8 A makes a full house here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
       null,
-      "7 K makes a full house here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker."
+      "A 7 is close, but the river lead is the tell. The correct hand picked up more on the river than A 7 would have.",
+      "6 8 makes a full house here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
+      "4 3 has little reason to lead the river here \u2014 two pair can't comfortably go for value after calling two streets."
     ],
-    "explanation": "<strong>Answer: 4 K</strong><br><br>Your opponent flopped two pair and bet all three streets with growing sizing. The consistent pressure \u2014 especially the larger turn bet \u2014 signals a hand strong enough to protect but not quite a monster."
+    "explanation": "<strong>Answer: J J</strong><br><br>Your opponent was drawing to a flush and called the flop to keep their options open. Once they hit, they bet the turn and river for value \u2014 growing aggression on later streets is a hallmark of a completed draw."
   }
 }
