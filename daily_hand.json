@@ -1,65 +1,65 @@
 {
-  "date": "2026-07-16T02:09:29",
+  "date": "2026-07-17T02:12:35",
   "hand": {
     "title": "Daily Hand",
     "events": [
       {
         "icon": "\ud83d\udcb0",
-        "text": "<strong>Your cards \u2014 10, Q.</strong> Your opponent called your raise before the cards were dealt."
+        "text": "<strong>Your cards \u2014 5, Q.</strong> Your opponent called your raise before the cards were dealt."
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Flop</strong> \u2014 8, 3, 2. You bet. <strong>Your opponent called.</strong>"
+        "text": "<strong>Flop</strong> \u2014 5, 2, King. You bet. <strong>Your opponent called.</strong>"
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Turn</strong> \u2014 6. You checked. <strong>Your opponent bet.</strong>"
+        "text": "<strong>Turn</strong> \u2014 King. You checked. <strong>Your opponent bet.</strong>"
       },
       {
         "icon": "\ud83c\udf0a",
-        "text": "<strong>River</strong> \u2014 8. Your opponent <strong>bet large \u2014 about the size of the pot.</strong>"
+        "text": "<strong>River</strong> \u2014 4. Your opponent <strong>bet large \u2014 about the size of the pot.</strong>"
       }
     ],
     "yourCards": [
       [
-        "T",
+        "5",
         "s"
       ],
       [
         "Q",
-        "h"
+        "s"
       ]
     ],
     "community": [
       [
-        "8",
+        "5",
         "d"
-      ],
-      [
-        "3",
-        "h"
       ],
       [
         "2",
         "h"
       ],
       [
-        "6",
+        "K",
         "h"
       ],
       [
-        "8",
+        "K",
+        "c"
+      ],
+      [
+        "4",
         "h"
       ]
     ],
-    "correct": 0,
+    "correct": 1,
     "choices": [
       {
-        "label": "J J",
+        "label": "10 J",
         "cards": [
           [
-            "J",
-            "s"
+            "T",
+            "h"
           ],
           [
             "J",
@@ -68,15 +68,28 @@
         ]
       },
       {
-        "label": "A 7",
+        "label": "Q 6",
         "cards": [
           [
-            "A",
-            "c"
+            "Q",
+            "h"
           ],
           [
-            "7",
+            "6",
             "h"
+          ]
+        ]
+      },
+      {
+        "label": "2 K",
+        "cards": [
+          [
+            "2",
+            "s"
+          ],
+          [
+            "K",
+            "d"
           ]
         ]
       },
@@ -92,27 +105,14 @@
             "s"
           ]
         ]
-      },
-      {
-        "label": "4 3",
-        "cards": [
-          [
-            "4",
-            "c"
-          ],
-          [
-            "3",
-            "c"
-          ]
-        ]
       }
     ],
     "wrongReasons": [
+      "10 J has similar strength, but look at when the aggression shifted \u2014 the turn card connects with the correct hand in a way it doesn't connect with 10 J.",
       null,
-      "A 7 is close, but the river lead is the tell. The correct hand picked up more on the river than A 7 would have.",
-      "6 8 makes a full house here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
-      "4 3 has little reason to lead the river here \u2014 two pair can't comfortably go for value after calling two streets."
+      "2 K makes a full house here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
+      "6 8 doesn't benefit from the turn card the way the correct hand does. A player holding only one pair wouldn't have the confidence to raise on that street."
     ],
-    "explanation": "<strong>Answer: J J</strong><br><br>Your opponent was drawing to a flush and called the flop to keep their options open. Once they hit, they bet the turn and river for value \u2014 growing aggression on later streets is a hallmark of a completed draw."
+    "explanation": "<strong>Answer: Q 6</strong><br><br>Your opponent was drawing to a flush and called the flop to keep their options open. Once they hit, they bet the turn and river for value \u2014 growing aggression on later streets is a hallmark of a completed draw."
   }
 }
