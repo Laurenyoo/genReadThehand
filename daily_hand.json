@@ -1,118 +1,118 @@
 {
-  "date": "2026-07-23T02:22:00",
+  "date": "2026-07-24T02:13:00",
   "hand": {
     "title": "Daily Hand",
     "events": [
       {
         "icon": "\ud83d\udcb0",
-        "text": "You raised before the cards were dealt. Your opponent called."
+        "text": "<strong>Your cards \u2014 9, 6.</strong> Your opponent raised before the cards were dealt. You called."
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Flop</strong> \u2014 King, King, King. You bet. <strong>Your opponent raised you back.</strong>"
+        "text": "<strong>Flop</strong> \u2014 Ace, Jack, 2. Your opponent bet. <strong>You called.</strong>"
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Turn</strong> \u2014 5. Your opponent bet out. <strong>You called.</strong>"
+        "text": "<strong>Turn</strong> \u2014 4. <strong>Your opponent bet again \u2014 bigger.</strong>"
       },
       {
         "icon": "\ud83c\udf0a",
-        "text": "<strong>River</strong> \u2014 7. Your opponent <strong>shoved all-in without hesitation.</strong>"
+        "text": "<strong>River</strong> \u2014 Ace. Your opponent <strong>fired a large river bet.</strong>"
       }
     ],
     "yourCards": [
       [
-        "5",
+        "9",
         "c"
       ],
       [
-        "8",
-        "s"
+        "6",
+        "h"
       ]
     ],
     "community": [
       [
-        "K",
-        "d"
-      ],
-      [
-        "K",
+        "A",
         "s"
       ],
       [
-        "K",
+        "J",
         "h"
       ],
       [
-        "5",
+        "2",
         "d"
       ],
       [
-        "7",
-        "h"
+        "4",
+        "d"
+      ],
+      [
+        "A",
+        "c"
       ]
     ],
-    "correct": 0,
+    "correct": 3,
     "choices": [
       {
-        "label": "6 10",
+        "label": "5 5",
         "cards": [
           [
-            "6",
-            "s"
+            "5",
+            "c"
           ],
           [
-            "T",
-            "c"
-          ]
-        ]
-      },
-      {
-        "label": "6 Q",
-        "cards": [
-          [
-            "6",
+            "5",
             "d"
-          ],
-          [
-            "Q",
-            "s"
           ]
         ]
       },
       {
-        "label": "K 7",
+        "label": "A 7",
         "cards": [
           [
-            "K",
-            "c"
+            "A",
+            "h"
           ],
           [
             "7",
+            "d"
+          ]
+        ]
+      },
+      {
+        "label": "9 K",
+        "cards": [
+          [
+            "9",
+            "h"
+          ],
+          [
+            "K",
             "c"
           ]
         ]
       },
       {
-        "label": "9 3",
+        "label": "2 J",
         "cards": [
           [
-            "9",
+            "2",
             "s"
           ],
           [
-            "3",
-            "s"
+            "J",
+            "d"
           ]
         ]
       }
     ],
     "wrongReasons": [
-      null,
-      "6 Q plays similarly, but the correct hand pairs a specific board card that 6 Q doesn't. Look at which hole card ranks actually appear on the board.",
-      "K 7 makes a four of a kind here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
-      "9 3 plays similarly, but the correct hand pairs a specific board card that 9 3 doesn't. Look at which hole card ranks actually appear on the board."
+      "5 5 plays similarly, but the correct hand pairs a specific board card that 5 5 doesn't. Look at which hole card ranks actually appear on the board.",
+      "A 7 makes a three of a kind here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
+      "With only one pair, 9 K wouldn't commit chips across multiple streets. This betting line requires a genuinely made hand from the flop onward.",
+      null
     ],
-    "explanation": "<strong>Answer: 6 10</strong><br><br>Your opponent flopped three of a kind and raised the flop immediately to build the pot. Sets are too strong to slow-play \u2014 they pushed their advantage on every street."
+    "explanation": "<strong>Answer: 2 J</strong><br><br>Your opponent flopped two pair and bet all three streets with growing sizing. The consistent pressure \u2014 especially the larger turn bet \u2014 signals a hand strong enough to protect but not quite a monster."
   }
 }
