@@ -1,82 +1,69 @@
 {
-  "date": "2026-08-17T00:58:25",
+  "date": "2026-08-18T00:57:02",
   "hand": {
     "title": "Daily Hand",
     "events": [
       {
         "icon": "\ud83d\udcb0",
-        "text": "<strong>Your cards \u2014 6, 8.</strong> Both players called a raise before the cards were dealt."
+        "text": "You raised before the cards were dealt. Your opponent called."
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Flop</strong> \u2014 3, 7, 10. You bet. <strong>Your opponent raised.</strong>"
+        "text": "<strong>Flop</strong> \u2014 Queen, 3, 8. You bet. <strong>Your opponent called.</strong>"
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Turn</strong> \u2014 5. Your opponent led out with a bet. <strong>You called.</strong>"
+        "text": "<strong>Turn</strong> \u2014 8. You checked. <strong>Your opponent bet \u2014 bigger than expected.</strong>"
       },
       {
         "icon": "\ud83c\udf0a",
-        "text": "<strong>River</strong> \u2014 4. Your opponent <strong>fired again \u2014 half the pot.</strong>"
+        "text": "<strong>River</strong> \u2014 7. Your opponent <strong>fired again for value.</strong>"
       }
     ],
     "yourCards": [
       [
-        "6",
+        "K",
         "h"
       ],
       [
-        "8",
-        "s"
+        "J",
+        "d"
       ]
     ],
     "community": [
       [
+        "Q",
+        "d"
+      ],
+      [
         "3",
-        "h"
+        "d"
+      ],
+      [
+        "8",
+        "s"
+      ],
+      [
+        "8",
+        "d"
       ],
       [
         "7",
-        "c"
-      ],
-      [
-        "T",
-        "d"
-      ],
-      [
-        "5",
-        "d"
-      ],
-      [
-        "4",
-        "c"
+        "s"
       ]
     ],
-    "correct": 3,
+    "correct": 1,
     "choices": [
       {
-        "label": "Q 6",
+        "label": "K K",
         "cards": [
           [
-            "Q",
-            "s"
+            "K",
+            "d"
           ],
           [
-            "6",
-            "s"
-          ]
-        ]
-      },
-      {
-        "label": "A 4",
-        "cards": [
-          [
-            "A",
+            "K",
             "c"
-          ],
-          [
-            "4",
-            "h"
           ]
         ]
       },
@@ -89,30 +76,43 @@
           ],
           [
             "3",
-            "c"
+            "h"
           ]
         ]
       },
       {
-        "label": "2 A",
+        "label": "2 6",
         "cards": [
           [
             "2",
             "d"
           ],
           [
-            "A",
-            "h"
+            "6",
+            "d"
+          ]
+        ]
+      },
+      {
+        "label": "4 9",
+        "cards": [
+          [
+            "4",
+            "s"
+          ],
+          [
+            "9",
+            "c"
           ]
         ]
       }
     ],
     "wrongReasons": [
-      "Q 6 is close, but the river lead is the tell. The correct hand picked up more on the river than Q 6 would have.",
-      "A 4 has little reason to lead the river here \u2014 one pair can't comfortably go for value after calling two streets.",
-      "5 3 has little reason to lead the river here \u2014 two pair can't comfortably go for value after calling two streets.",
-      null
+      "K K has similar strength, but look at when the aggression shifted \u2014 the turn card connects with the correct hand in a way it doesn't connect with K K.",
+      null,
+      "2 6 makes a flush here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
+      "4 9 doesn't benefit from the turn card the way the correct hand does. A player holding only one pair wouldn't have the confidence to raise on that street."
     ],
-    "explanation": "<strong>Answer: 2 A</strong><br><br>Your opponent flopped a straight and immediately raised to build the pot. They led every remaining street \u2014 consistent value betting across all streets is a strong signal of a made hand."
+    "explanation": "<strong>Answer: 5 3</strong><br><br>Your opponent called the flop with one pair, then picked up two pair on the turn. The sudden aggression on the turn \u2014 after passivity on the flop \u2014 is the tell: they improved and immediately started building the pot."
   }
 }
