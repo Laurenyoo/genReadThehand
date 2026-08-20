@@ -1,118 +1,118 @@
 {
-  "date": "2026-08-19T00:57:59",
+  "date": "2026-08-20T00:57:26",
   "hand": {
     "title": "Daily Hand",
     "events": [
       {
         "icon": "\ud83d\udcb0",
-        "text": "<strong>Your cards \u2014 10, K.</strong> Both players called a raise before the cards were dealt."
+        "text": "You raised before the cards were dealt. Your opponent called."
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Flop</strong> \u2014 5, 10, 9. You bet. <strong>Your opponent raised.</strong>"
+        "text": "<strong>Flop</strong> \u2014 6, 3, King. Your opponent checked. You bet. <strong>Your opponent called.</strong>"
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Turn</strong> \u2014 Jack. Your opponent led out with a bet. <strong>You called.</strong>"
+        "text": "<strong>Turn</strong> \u2014 10. Both players checked."
       },
       {
         "icon": "\ud83c\udf0a",
-        "text": "<strong>River</strong> \u2014 Queen. Your opponent <strong>fired again \u2014 half the pot.</strong>"
+        "text": "<strong>River</strong> \u2014 8. Your opponent <strong>led out with a bet.</strong>"
       }
     ],
     "yourCards": [
       [
-        "T",
+        "6",
         "s"
       ],
       [
-        "K",
-        "d"
+        "9",
+        "s"
       ]
     ],
     "community": [
       [
-        "5",
+        "6",
         "h"
       ],
       [
-        "T",
+        "3",
         "h"
       ],
       [
-        "9",
-        "c"
-      ],
-      [
-        "J",
+        "K",
         "s"
       ],
       [
-        "Q",
-        "d"
+        "T",
+        "c"
+      ],
+      [
+        "8",
+        "s"
       ]
     ],
-    "correct": 3,
+    "correct": 0,
     "choices": [
+      {
+        "label": "4 K",
+        "cards": [
+          [
+            "4",
+            "c"
+          ],
+          [
+            "K",
+            "c"
+          ]
+        ]
+      },
       {
         "label": "9 K",
         "cards": [
           [
             "9",
-            "s"
-          ],
-          [
-            "K",
-            "s"
-          ]
-        ]
-      },
-      {
-        "label": "J 6",
-        "cards": [
-          [
-            "J",
-            "c"
-          ],
-          [
-            "6",
-            "s"
-          ]
-        ]
-      },
-      {
-        "label": "2 3",
-        "cards": [
-          [
-            "2",
             "h"
           ],
           [
-            "3",
+            "K",
+            "h"
+          ]
+        ]
+      },
+      {
+        "label": "6 8",
+        "cards": [
+          [
+            "6",
+            "c"
+          ],
+          [
+            "8",
             "c"
           ]
         ]
       },
       {
-        "label": "8 7",
+        "label": "5 A",
         "cards": [
           [
-            "8",
+            "5",
             "d"
           ],
           [
-            "7",
+            "A",
             "h"
           ]
         ]
       }
     ],
     "wrongReasons": [
-      "9 K has similar strength, but look at when the aggression shifted \u2014 the turn card connects with the correct hand in a way it doesn't connect with 9 K.",
-      "J 6 doesn't benefit from the turn card the way the correct hand does. A player holding only one pair wouldn't have the confidence to raise on that street.",
-      "2 3 doesn't benefit from the turn card the way the correct hand does. A player holding only high card wouldn't have the confidence to raise on that street.",
-      null
+      null,
+      "9 K plays similarly, but the correct hand pairs a specific board card that 9 K doesn't. Look at which hole card ranks actually appear on the board.",
+      "6 8 makes a two pair here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
+      "With only high card, 5 A wouldn't commit chips across multiple streets. This betting line requires a genuinely made hand from the flop onward."
     ],
-    "explanation": "<strong>Answer: 8 7</strong><br><br>Your opponent flopped a straight and immediately raised to build the pot. They led every remaining street \u2014 consistent value betting across all streets is a strong signal of a made hand."
+    "explanation": "<strong>Answer: 4 K</strong><br><br>Your opponent flopped a pair but played it passively \u2014 calling the flop and checking the turn \u2014 before leading the river to extract thin value. The check-call-check-lead line is a tell for a medium-strength made hand."
   }
 }
