@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-08T02:47:18",
+  "date": "2026-09-09T02:47:18",
   "hand": {
     "title": "Daily Hand",
     "events": [
@@ -9,11 +9,11 @@
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Flop</strong> \u2014 King, Queen, 6. Your opponent checked. You bet. <strong>Your opponent called.</strong>"
+        "text": "<strong>Flop</strong> \u2014 7, Queen, 10. Your opponent checked. You bet. <strong>Your opponent called.</strong>"
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Turn</strong> \u2014 9. Both players checked."
+        "text": "<strong>Turn</strong> \u2014 5. Both players checked."
       },
       {
         "icon": "\ud83c\udf0a",
@@ -22,97 +22,97 @@
     ],
     "yourCards": [
       [
-        "4",
-        "s"
+        "2",
+        "c"
       ],
       [
-        "7",
-        "d"
+        "3",
+        "s"
       ]
     ],
     "community": [
       [
-        "K",
-        "d"
+        "7",
+        "s"
       ],
       [
         "Q",
-        "d"
+        "c"
       ],
       [
-        "6",
-        "d"
-      ],
-      [
-        "9",
+        "T",
         "h"
+      ],
+      [
+        "5",
+        "c"
       ],
       [
         "8",
-        "h"
+        "c"
       ]
     ],
     "correct": 0,
     "choices": [
       {
+        "label": "J Q",
+        "cards": [
+          [
+            "J",
+            "c"
+          ],
+          [
+            "Q",
+            "h"
+          ]
+        ]
+      },
+      {
+        "label": "5 6",
+        "cards": [
+          [
+            "5",
+            "s"
+          ],
+          [
+            "6",
+            "c"
+          ]
+        ]
+      },
+      {
         "label": "10 K",
         "cards": [
           [
             "T",
-            "s"
-          ],
-          [
-            "K",
-            "s"
-          ]
-        ]
-      },
-      {
-        "label": "K 5",
-        "cards": [
-          [
-            "K",
-            "h"
-          ],
-          [
-            "5",
-            "h"
-          ]
-        ]
-      },
-      {
-        "label": "6 6",
-        "cards": [
-          [
-            "6",
             "c"
           ],
           [
-            "6",
-            "s"
+            "K",
+            "c"
           ]
         ]
       },
       {
-        "label": "A 2",
+        "label": "A 3",
         "cards": [
           [
             "A",
             "s"
           ],
           [
-            "2",
-            "d"
+            "3",
+            "h"
           ]
         ]
       }
     ],
     "wrongReasons": [
       null,
-      "K 5 plays similarly, but the correct hand pairs a specific board card that K 5 doesn't. Look at which hole card ranks actually appear on the board.",
-      "6 6 makes a three of a kind here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
-      "With only high card, A 2 wouldn't commit chips across multiple streets. This betting line requires a genuinely made hand from the flop onward."
+      "5 6 plays similarly, but the correct hand pairs a specific board card that 5 6 doesn't. Look at which hole card ranks actually appear on the board.",
+      "10 K makes a flush here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
+      "With only high card, A 3 wouldn't commit chips across multiple streets. This betting line requires a genuinely made hand from the flop onward."
     ],
-    "explanation": "<strong>Answer: 10 K</strong><br><br>Your opponent flopped a pair but played it passively \u2014 calling the flop and checking the turn \u2014 before leading the river to extract thin value. The check-call-check-lead line is a tell for a medium-strength made hand."
+    "explanation": "<strong>Answer: J Q</strong><br><br>Your opponent flopped a pair but played it passively \u2014 calling the flop and checking the turn \u2014 before leading the river to extract thin value. The check-call-check-lead line is a tell for a medium-strength made hand."
   }
 }
