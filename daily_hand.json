@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-12T02:51:21",
+  "date": "2026-09-13T02:50:02",
   "hand": {
     "title": "Daily Hand",
     "events": [
@@ -9,83 +9,83 @@
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Flop</strong> \u2014 Queen, 3, Ace. You bet. <strong>Your opponent raised you back.</strong>"
+        "text": "<strong>Flop</strong> \u2014 Jack, 6, King. You bet. <strong>Your opponent raised you back.</strong>"
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Turn</strong> \u2014 Ace. Your opponent bet out. <strong>You called.</strong>"
+        "text": "<strong>Turn</strong> \u2014 7. Your opponent bet out. <strong>You called.</strong>"
       },
       {
         "icon": "\ud83c\udf0a",
-        "text": "<strong>River</strong> \u2014 10. Your opponent <strong>shoved all-in without hesitation.</strong>"
+        "text": "<strong>River</strong> \u2014 Jack. Your opponent <strong>shoved all-in without hesitation.</strong>"
       }
     ],
     "yourCards": [
       [
-        "5",
-        "h"
+        "9",
+        "d"
       ],
       [
-        "7",
-        "s"
+        "5",
+        "c"
       ]
     ],
     "community": [
       [
-        "Q",
-        "h"
+        "J",
+        "c"
       ],
       [
-        "3",
+        "6",
+        "c"
+      ],
+      [
+        "K",
         "d"
       ],
       [
-        "A",
+        "7",
         "h"
       ],
       [
-        "A",
+        "J",
         "d"
-      ],
-      [
-        "T",
-        "h"
       ]
     ],
-    "correct": 2,
+    "correct": 0,
     "choices": [
       {
-        "label": "8 A",
+        "label": "J A",
         "cards": [
           [
-            "8",
+            "J",
             "s"
           ],
           [
             "A",
+            "d"
+          ]
+        ]
+      },
+      {
+        "label": "J 10",
+        "cards": [
+          [
+            "J",
+            "h"
+          ],
+          [
+            "T",
             "s"
           ]
         ]
       },
       {
-        "label": "9 K",
+        "label": "6 6",
         "cards": [
           [
-            "9",
-            "h"
-          ],
-          [
-            "K",
-            "h"
-          ]
-        ]
-      },
-      {
-        "label": "A 6",
-        "cards": [
-          [
-            "A",
-            "c"
+            "6",
+            "d"
           ],
           [
             "6",
@@ -94,25 +94,25 @@
         ]
       },
       {
-        "label": "9 9",
+        "label": "5 Q",
         "cards": [
           [
-            "9",
+            "5",
             "d"
           ],
           [
-            "9",
-            "c"
+            "Q",
+            "h"
           ]
         ]
       }
     ],
     "wrongReasons": [
-      "8 A has similar strength, but look at when the aggression shifted \u2014 the turn card connects with the correct hand in a way it doesn't connect with 8 A.",
-      "9 K makes a flush here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
       null,
-      "9 9 doesn't benefit from the turn card the way the correct hand does. A player holding only two pair wouldn't have the confidence to raise on that street."
+      "J 10 is close, but the river lead is the tell. The correct hand picked up more on the river than J 10 would have.",
+      "6 6 makes a full house here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
+      "5 Q has little reason to lead the river here \u2014 one pair can't comfortably go for value after calling two streets."
     ],
-    "explanation": "<strong>Answer: A 6</strong><br><br>Your opponent flopped three of a kind and raised the flop immediately to build the pot. Sets are too strong to slow-play \u2014 they pushed their advantage on every street."
+    "explanation": "<strong>Answer: J A</strong><br><br>Your opponent flopped three of a kind and raised the flop immediately to build the pot. Sets are too strong to slow-play \u2014 they pushed their advantage on every street."
   }
 }
