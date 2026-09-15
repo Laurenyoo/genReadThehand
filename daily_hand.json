@@ -1,118 +1,118 @@
 {
-  "date": "2026-09-14T03:04:12",
+  "date": "2026-09-15T03:06:19",
   "hand": {
     "title": "Daily Hand",
     "events": [
       {
         "icon": "\ud83d\udcb0",
-        "text": "You raised before the cards were dealt. Your opponent called."
+        "text": "<strong>Your cards \u2014 7, 10.</strong> Your opponent called your raise before the cards were dealt."
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Flop</strong> \u2014 Queen, 5, Ace. You bet. <strong>Your opponent called.</strong>"
+        "text": "<strong>Flop</strong> \u2014 8, 3, 6. You bet. <strong>Your opponent called.</strong>"
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Turn</strong> \u2014 3. You bet. <strong>Your opponent called again.</strong>"
+        "text": "<strong>Turn</strong> \u2014 Ace. You checked. <strong>Your opponent bet.</strong>"
       },
       {
         "icon": "\ud83c\udf0a",
-        "text": "<strong>River</strong> \u2014 7. Your opponent <strong>led out with a confident bet.</strong>"
+        "text": "<strong>River</strong> \u2014 Ace. Your opponent <strong>bet large \u2014 about the size of the pot.</strong>"
       }
     ],
     "yourCards": [
       [
-        "9",
-        "h"
+        "7",
+        "d"
       ],
       [
-        "7",
-        "s"
+        "T",
+        "c"
       ]
     ],
     "community": [
       [
-        "Q",
-        "h"
-      ],
-      [
-        "5",
-        "s"
-      ],
-      [
-        "A",
-        "s"
+        "8",
+        "d"
       ],
       [
         "3",
+        "d"
+      ],
+      [
+        "6",
+        "h"
+      ],
+      [
+        "A",
         "c"
       ],
       [
-        "7",
+        "A",
         "d"
       ]
     ],
-    "correct": 3,
+    "correct": 1,
     "choices": [
       {
-        "label": "A 4",
+        "label": "2 5",
         "cards": [
           [
-            "A",
+            "2",
             "d"
           ],
-          [
-            "4",
-            "h"
-          ]
-        ]
-      },
-      {
-        "label": "5 7",
-        "cards": [
           [
             "5",
             "d"
-          ],
-          [
-            "7",
-            "c"
           ]
         ]
       },
       {
-        "label": "10 4",
+        "label": "Q 6",
         "cards": [
           [
-            "T",
-            "s"
+            "Q",
+            "d"
           ],
           [
-            "4",
+            "6",
             "d"
           ]
         ]
       },
       {
-        "label": "6 7",
+        "label": "A 8",
         "cards": [
           [
-            "6",
+            "A",
+            "s"
+          ],
+          [
+            "8",
             "h"
+          ]
+        ]
+      },
+      {
+        "label": "J 7",
+        "cards": [
+          [
+            "J",
+            "c"
           ],
           [
             "7",
-            "h"
+            "s"
           ]
         ]
       }
     ],
     "wrongReasons": [
-      "A 4 is close, but the river lead is the tell. The correct hand picked up more on the river than A 4 would have.",
-      "5 7 makes a two pair here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
-      "10 4 has little reason to lead the river here \u2014 high card can't comfortably go for value after calling two streets.",
-      null
+      "2 5 is close, but the river lead is the tell. The correct hand picked up more on the river than 2 5 would have.",
+      null,
+      "A 8 makes a full house here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
+      "J 7 has little reason to lead the river here \u2014 one pair can't comfortably go for value after calling two streets."
     ],
-    "explanation": "<strong>Answer: 6 7</strong><br><br>Your opponent called two streets with nothing but overcards, then the river card paired one of their hole cards. The sudden lead on the river \u2014 after calling twice \u2014 is the tell: they finally hit something and went for value."
+    "explanation": "<strong>Answer: Q 6</strong><br><br>Your opponent was drawing to a flush and called the flop to keep their options open. Once they hit, they bet the turn and river for value \u2014 growing aggression on later streets is a hallmark of a completed draw."
   }
 }
