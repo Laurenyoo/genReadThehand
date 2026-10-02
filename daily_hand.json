@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-01T03:49:07",
+  "date": "2026-10-02T03:47:01",
   "hand": {
     "title": "Daily Hand",
     "events": [
@@ -9,82 +9,82 @@
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Flop</strong> \u2014 2, 3, 6. You bet. <strong>Your opponent called.</strong>"
+        "text": "<strong>Flop</strong> \u2014 4, 4, Queen. You bet. <strong>Your opponent raised you back.</strong>"
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Turn</strong> \u2014 9. You bet. <strong>Your opponent called again.</strong>"
+        "text": "<strong>Turn</strong> \u2014 Ace. Your opponent bet out. <strong>You called.</strong>"
       },
       {
         "icon": "\ud83c\udf0a",
-        "text": "<strong>River</strong> \u2014 5. Your opponent <strong>led out with a confident bet.</strong>"
+        "text": "<strong>River</strong> \u2014 9. Your opponent <strong>shoved all-in without hesitation.</strong>"
       }
     ],
     "yourCards": [
       [
-        "8",
-        "s"
+        "Q",
+        "d"
       ],
       [
-        "7",
-        "s"
+        "Q",
+        "h"
       ]
     ],
     "community": [
       [
-        "2",
+        "4",
         "h"
       ],
       [
-        "3",
+        "4",
         "s"
       ],
       [
-        "6",
-        "h"
+        "Q",
+        "s"
+      ],
+      [
+        "A",
+        "d"
       ],
       [
         "9",
-        "s"
-      ],
-      [
-        "5",
-        "d"
+        "h"
       ]
     ],
-    "correct": 0,
+    "correct": 1,
     "choices": [
       {
-        "label": "K 5",
+        "label": "K 4",
         "cards": [
           [
             "K",
-            "h"
+            "c"
           ],
           [
-            "5",
+            "4",
+            "c"
+          ]
+        ]
+      },
+      {
+        "label": "4 10",
+        "cards": [
+          [
+            "4",
+            "d"
+          ],
+          [
+            "T",
             "h"
           ]
         ]
       },
       {
-        "label": "Q 3",
+        "label": "Q 5",
         "cards": [
           [
             "Q",
-            "h"
-          ],
-          [
-            "3",
-            "d"
-          ]
-        ]
-      },
-      {
-        "label": "9 5",
-        "cards": [
-          [
-            "9",
             "c"
           ],
           [
@@ -94,25 +94,25 @@
         ]
       },
       {
-        "label": "7 K",
+        "label": "6 K",
         "cards": [
           [
-            "7",
-            "h"
+            "6",
+            "s"
           ],
           [
             "K",
-            "d"
+            "h"
           ]
         ]
       }
     ],
     "wrongReasons": [
+      "K 4 plays similarly, but the correct hand pairs a specific board card that K 4 doesn't. Look at which hole card ranks actually appear on the board.",
       null,
-      "Q 3 is close, but the river lead is the tell. The correct hand picked up more on the river than Q 3 would have.",
-      "9 5 makes a two pair here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
-      "7 K has little reason to lead the river here \u2014 high card can't comfortably go for value after calling two streets."
+      "With only two pair, Q 5 wouldn't commit chips across multiple streets. This betting line requires a genuinely made hand from the flop onward.",
+      "With only one pair, 6 K wouldn't commit chips across multiple streets. This betting line requires a genuinely made hand from the flop onward."
     ],
-    "explanation": "<strong>Answer: K 5</strong><br><br>Your opponent called two streets with nothing but overcards, then the river card paired one of their hole cards. The sudden lead on the river \u2014 after calling twice \u2014 is the tell: they finally hit something and went for value."
+    "explanation": "<strong>Answer: 4 10</strong><br><br>Your opponent flopped three of a kind and raised the flop immediately to build the pot. Sets are too strong to slow-play \u2014 they pushed their advantage on every street."
   }
 }
