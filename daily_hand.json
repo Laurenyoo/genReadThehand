@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-02T03:47:01",
+  "date": "2026-10-03T03:31:27",
   "hand": {
     "title": "Daily Hand",
     "events": [
@@ -9,110 +9,110 @@
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Flop</strong> \u2014 4, 4, Queen. You bet. <strong>Your opponent raised you back.</strong>"
+        "text": "<strong>Flop</strong> \u2014 9, 10, 6. Your opponent checked. You bet. <strong>Your opponent called.</strong>"
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Turn</strong> \u2014 Ace. Your opponent bet out. <strong>You called.</strong>"
+        "text": "<strong>Turn</strong> \u2014 King. Both players checked."
       },
       {
         "icon": "\ud83c\udf0a",
-        "text": "<strong>River</strong> \u2014 9. Your opponent <strong>shoved all-in without hesitation.</strong>"
+        "text": "<strong>River</strong> \u2014 4. Your opponent <strong>led out with a bet.</strong>"
       }
     ],
     "yourCards": [
       [
-        "Q",
-        "d"
+        "3",
+        "h"
       ],
       [
         "Q",
-        "h"
+        "c"
       ]
     ],
     "community": [
       [
-        "4",
+        "9",
+        "s"
+      ],
+      [
+        "T",
+        "s"
+      ],
+      [
+        "6",
         "h"
       ],
       [
+        "K",
+        "c"
+      ],
+      [
         "4",
-        "s"
-      ],
-      [
-        "Q",
-        "s"
-      ],
-      [
-        "A",
-        "d"
-      ],
-      [
-        "9",
         "h"
       ]
     ],
-    "correct": 1,
+    "correct": 3,
     "choices": [
       {
-        "label": "K 4",
+        "label": "5 4",
         "cards": [
           [
-            "K",
-            "c"
-          ],
-          [
-            "4",
-            "c"
-          ]
-        ]
-      },
-      {
-        "label": "4 10",
-        "cards": [
-          [
-            "4",
+            "5",
             "d"
           ],
           [
-            "T",
-            "h"
-          ]
-        ]
-      },
-      {
-        "label": "Q 5",
-        "cards": [
-          [
-            "Q",
-            "c"
-          ],
-          [
-            "5",
-            "c"
-          ]
-        ]
-      },
-      {
-        "label": "6 K",
-        "cards": [
-          [
-            "6",
+            "4",
             "s"
+          ]
+        ]
+      },
+      {
+        "label": "9 K",
+        "cards": [
+          [
+            "9",
+            "h"
           ],
           [
             "K",
-            "h"
+            "d"
+          ]
+        ]
+      },
+      {
+        "label": "2 A",
+        "cards": [
+          [
+            "2",
+            "s"
+          ],
+          [
+            "A",
+            "c"
+          ]
+        ]
+      },
+      {
+        "label": "10 7",
+        "cards": [
+          [
+            "T",
+            "d"
+          ],
+          [
+            "7",
+            "s"
           ]
         ]
       }
     ],
     "wrongReasons": [
-      "K 4 plays similarly, but the correct hand pairs a specific board card that K 4 doesn't. Look at which hole card ranks actually appear on the board.",
-      null,
-      "With only two pair, Q 5 wouldn't commit chips across multiple streets. This betting line requires a genuinely made hand from the flop onward.",
-      "With only one pair, 6 K wouldn't commit chips across multiple streets. This betting line requires a genuinely made hand from the flop onward."
+      "5 4 plays similarly, but the correct hand pairs a specific board card that 5 4 doesn't. Look at which hole card ranks actually appear on the board.",
+      "9 K makes a two pair here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
+      "With only high card, 2 A wouldn't commit chips across multiple streets. This betting line requires a genuinely made hand from the flop onward.",
+      null
     ],
-    "explanation": "<strong>Answer: 4 10</strong><br><br>Your opponent flopped three of a kind and raised the flop immediately to build the pot. Sets are too strong to slow-play \u2014 they pushed their advantage on every street."
+    "explanation": "<strong>Answer: 10 7</strong><br><br>Your opponent flopped a pair but played it passively \u2014 calling the flop and checking the turn \u2014 before leading the river to extract thin value. The check-call-check-lead line is a tell for a medium-strength made hand."
   }
 }
