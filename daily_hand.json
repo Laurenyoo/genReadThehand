@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-04T04:00:00",
+  "date": "2026-10-05T03:45:20",
   "hand": {
     "title": "Daily Hand",
     "events": [
@@ -9,110 +9,110 @@
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Flop</strong> \u2014 King, Jack, King. You bet. <strong>Your opponent called.</strong>"
+        "text": "<strong>Flop</strong> \u2014 Ace, Queen, Ace. You bet. <strong>Your opponent raised you back.</strong>"
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Turn</strong> \u2014 8. You checked. <strong>Your opponent bet \u2014 bigger than expected.</strong>"
+        "text": "<strong>Turn</strong> \u2014 9. Your opponent bet out. <strong>You called.</strong>"
       },
       {
         "icon": "\ud83c\udf0a",
-        "text": "<strong>River</strong> \u2014 3. Your opponent <strong>fired again for value.</strong>"
+        "text": "<strong>River</strong> \u2014 2. Your opponent <strong>shoved all-in without hesitation.</strong>"
       }
     ],
     "yourCards": [
       [
-        "2",
-        "h"
+        "5",
+        "c"
       ],
       [
-        "8",
-        "s"
+        "5",
+        "d"
       ]
     ],
     "community": [
       [
-        "K",
+        "A",
+        "s"
+      ],
+      [
+        "Q",
         "h"
       ],
       [
-        "J",
+        "A",
         "c"
       ],
       [
-        "K",
-        "c"
+        "9",
+        "s"
       ],
       [
-        "8",
+        "2",
         "c"
-      ],
-      [
-        "3",
-        "h"
       ]
     ],
-    "correct": 2,
+    "correct": 1,
     "choices": [
       {
-        "label": "3 5",
+        "label": "A 7",
         "cards": [
           [
-            "3",
-            "s"
+            "A",
+            "d"
           ],
           [
-            "5",
-            "s"
+            "7",
+            "h"
           ]
         ]
       },
       {
-        "label": "3 K",
+        "label": "4 A",
         "cards": [
           [
-            "3",
-            "d"
-          ],
-          [
-            "K",
+            "4",
             "s"
-          ]
-        ]
-      },
-      {
-        "label": "8 2",
-        "cards": [
-          [
-            "8",
-            "d"
-          ],
-          [
-            "2",
-            "d"
-          ]
-        ]
-      },
-      {
-        "label": "5 A",
-        "cards": [
-          [
-            "5",
-            "d"
           ],
           [
             "A",
+            "h"
+          ]
+        ]
+      },
+      {
+        "label": "8 5",
+        "cards": [
+          [
+            "8",
+            "c"
+          ],
+          [
+            "5",
+            "h"
+          ]
+        ]
+      },
+      {
+        "label": "10 10",
+        "cards": [
+          [
+            "T",
+            "s"
+          ],
+          [
+            "T",
             "d"
           ]
         ]
       }
     ],
     "wrongReasons": [
-      "3 5 has similar strength, but look at when the aggression shifted \u2014 the turn card connects with the correct hand in a way it doesn't connect with 3 5.",
-      "3 K makes a full house here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
+      "A 7 plays similarly, but the correct hand pairs a specific board card that A 7 doesn't. Look at which hole card ranks actually appear on the board.",
       null,
-      "5 A doesn't benefit from the turn card the way the correct hand does. A player holding only one pair wouldn't have the confidence to raise on that street."
+      "With only one pair, 8 5 wouldn't commit chips across multiple streets. This betting line requires a genuinely made hand from the flop onward.",
+      "With only two pair, 10 10 wouldn't commit chips across multiple streets. This betting line requires a genuinely made hand from the flop onward."
     ],
-    "explanation": "<strong>Answer: 8 2</strong><br><br>Your opponent called the flop with one pair, then picked up two pair on the turn. The sudden aggression on the turn \u2014 after passivity on the flop \u2014 is the tell: they improved and immediately started building the pot."
+    "explanation": "<strong>Answer: 4 A</strong><br><br>Your opponent flopped three of a kind and raised the flop immediately to build the pot. Sets are too strong to slow-play \u2014 they pushed their advantage on every street."
   }
 }
