@@ -1,118 +1,118 @@
 {
-  "date": "2026-10-06T04:33:10",
+  "date": "2026-10-07T03:58:59",
   "hand": {
     "title": "Daily Hand",
     "events": [
       {
         "icon": "\ud83d\udcb0",
-        "text": "You raised before the cards were dealt. Your opponent called."
+        "text": "<strong>Your cards \u2014 Q, 3.</strong> Your opponent raised before the cards were dealt. You called."
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Flop</strong> \u2014 9, 8, 8. You bet. <strong>Your opponent called.</strong>"
+        "text": "<strong>Flop</strong> \u2014 5, 5, 6. Your opponent bet. <strong>You called.</strong>"
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Turn</strong> \u2014 9. You checked. <strong>Your opponent bet \u2014 bigger than expected.</strong>"
+        "text": "<strong>Turn</strong> \u2014 Jack. <strong>Your opponent bet again \u2014 bigger.</strong>"
       },
       {
         "icon": "\ud83c\udf0a",
-        "text": "<strong>River</strong> \u2014 Ace. Your opponent <strong>fired again for value.</strong>"
+        "text": "<strong>River</strong> \u2014 Jack. Your opponent <strong>fired a large river bet.</strong>"
       }
     ],
     "yourCards": [
       [
-        "4",
-        "h"
+        "Q",
+        "d"
       ],
       [
-        "5",
-        "s"
+        "3",
+        "h"
       ]
     ],
     "community": [
       [
-        "9",
-        "s"
-      ],
-      [
-        "8",
-        "h"
-      ],
-      [
-        "8",
+        "5",
         "c"
       ],
       [
-        "9",
-        "d"
+        "5",
+        "h"
       ],
       [
-        "A",
+        "6",
+        "s"
+      ],
+      [
+        "J",
+        "h"
+      ],
+      [
+        "J",
         "s"
       ]
     ],
-    "correct": 1,
+    "correct": 3,
     "choices": [
       {
-        "label": "2 2",
+        "label": "A Q",
         "cards": [
           [
-            "2",
-            "c"
+            "A",
+            "s"
           ],
           [
-            "2",
+            "Q",
+            "h"
+          ]
+        ]
+      },
+      {
+        "label": "5 8",
+        "cards": [
+          [
+            "5",
+            "d"
+          ],
+          [
+            "8",
+            "c"
+          ]
+        ]
+      },
+      {
+        "label": "6 4",
+        "cards": [
+          [
+            "6",
+            "h"
+          ],
+          [
+            "4",
             "d"
           ]
         ]
       },
       {
-        "label": "Q K",
+        "label": "K 7",
         "cards": [
-          [
-            "Q",
-            "c"
-          ],
-          [
-            "K",
-            "s"
-          ]
-        ]
-      },
-      {
-        "label": "3 9",
-        "cards": [
-          [
-            "3",
-            "h"
-          ],
-          [
-            "9",
-            "h"
-          ]
-        ]
-      },
-      {
-        "label": "A K",
-        "cards": [
-          [
-            "A",
-            "c"
-          ],
           [
             "K",
             "c"
+          ],
+          [
+            "7",
+            "h"
           ]
         ]
       }
     ],
     "wrongReasons": [
-      "2 2 has similar strength, but look at when the aggression shifted \u2014 the turn card connects with the correct hand in a way it doesn't connect with 2 2.",
-      null,
-      "3 9 makes a full house here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
-      "A K has similar strength, but look at when the aggression shifted \u2014 the turn card connects with the correct hand in a way it doesn't connect with A K."
+      "A Q is close, but the river lead is the tell. The correct hand picked up more on the river than A Q would have.",
+      "5 8 makes a full house here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
+      "6 4 is close, but the river lead is the tell. The correct hand picked up more on the river than 6 4 would have.",
+      null
     ],
-    "explanation": "<strong>Answer: Q K</strong><br><br>Your opponent called the flop with one pair, then picked up two pair on the turn. The sudden aggression on the turn \u2014 after passivity on the flop \u2014 is the tell: they improved and immediately started building the pot."
+    "explanation": "<strong>Answer: K 7</strong><br><br>Your opponent flopped two pair and bet all three streets with growing sizing. The consistent pressure \u2014 especially the larger turn bet \u2014 signals a hand strong enough to protect but not quite a monster."
   }
 }
