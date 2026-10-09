@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-08T04:11:53",
+  "date": "2026-10-09T04:17:21",
   "hand": {
     "title": "Daily Hand",
     "events": [
@@ -9,21 +9,21 @@
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Flop</strong> \u2014 7, 9, 3. You bet. <strong>Your opponent called</strong>, staying patient."
+        "text": "<strong>Flop</strong> \u2014 7, 5, 5. You bet. <strong>Your opponent raised you back.</strong>"
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Turn</strong> \u2014 2. You bet. <strong>Your opponent raised</strong> \u2014 they just connected."
+        "text": "<strong>Turn</strong> \u2014 Queen. Your opponent bet out. <strong>You called.</strong>"
       },
       {
         "icon": "\ud83c\udf0a",
-        "text": "<strong>River</strong> \u2014 Queen. Your opponent <strong>bet again when checked to.</strong>"
+        "text": "<strong>River</strong> \u2014 2. Your opponent <strong>shoved all-in without hesitation.</strong>"
       }
     ],
     "yourCards": [
       [
-        "5",
-        "s"
+        "8",
+        "c"
       ],
       [
         "7",
@@ -36,83 +36,83 @@
         "d"
       ],
       [
-        "9",
-        "h"
-      ],
-      [
-        "3",
-        "c"
-      ],
-      [
-        "2",
+        "5",
         "d"
+      ],
+      [
+        "5",
+        "h"
       ],
       [
         "Q",
         "d"
+      ],
+      [
+        "2",
+        "s"
       ]
     ],
-    "correct": 1,
+    "correct": 2,
     "choices": [
       {
-        "label": "6 2",
+        "label": "J 5",
         "cards": [
           [
-            "6",
+            "J",
             "d"
           ],
           [
-            "2",
+            "5",
+            "s"
+          ]
+        ]
+      },
+      {
+        "label": "7 3",
+        "cards": [
+          [
+            "7",
+            "h"
+          ],
+          [
+            "3",
             "c"
           ]
         ]
       },
       {
-        "label": "8 2",
+        "label": "5 A",
         "cards": [
           [
-            "8",
-            "d"
-          ],
-          [
-            "2",
-            "s"
-          ]
-        ]
-      },
-      {
-        "label": "K 10",
-        "cards": [
-          [
-            "K",
-            "d"
-          ],
-          [
-            "T",
-            "d"
-          ]
-        ]
-      },
-      {
-        "label": "J A",
-        "cards": [
-          [
-            "J",
-            "s"
+            "5",
+            "c"
           ],
           [
             "A",
+            "s"
+          ]
+        ]
+      },
+      {
+        "label": "4 8",
+        "cards": [
+          [
+            "4",
             "d"
+          ],
+          [
+            "8",
+            "s"
           ]
         ]
       }
     ],
     "wrongReasons": [
-      "6 2 has similar strength, but look at when the aggression shifted \u2014 the turn card connects with the correct hand in a way it doesn't connect with 6 2.",
+      "J 5 plays similarly, but the correct hand pairs a specific board card that J 5 doesn't. Look at which hole card ranks actually appear on the board.",
+      "With only two pair, 7 3 wouldn't commit chips across multiple streets. This betting line requires a genuinely made hand from the flop onward.",
       null,
-      "K 10 makes a flush here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
-      "J A doesn't benefit from the turn card the way the correct hand does. A player holding only high card wouldn't have the confidence to raise on that street."
+      "With only one pair, 4 8 wouldn't commit chips across multiple streets. This betting line requires a genuinely made hand from the flop onward."
     ],
-    "explanation": "<strong>Answer: 8 2</strong><br><br>Your opponent called the flop with overcards, then the turn card gave them a pair. The raise on the turn \u2014 right after that card landed \u2014 is the tell: passive until they hit, then immediately aggressive."
+    "explanation": "<strong>Answer: 5 A</strong><br><br>Your opponent flopped three of a kind and raised the flop immediately to build the pot. Sets are too strong to slow-play \u2014 they pushed their advantage on every street."
   }
 }
