@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-26T02:54:52",
+  "date": "2026-10-27T03:27:45",
   "hand": {
     "title": "Daily Hand",
     "events": [
@@ -9,31 +9,39 @@
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Flop</strong> \u2014 9, Ace, Jack. You bet. <strong>Your opponent called.</strong>"
+        "text": "<strong>Flop</strong> \u2014 4, 10, 5. You bet. <strong>Your opponent called.</strong>"
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Turn</strong> \u2014 Ace. You checked. <strong>Your opponent bet \u2014 bigger than expected.</strong>"
+        "text": "<strong>Turn</strong> \u2014 Ace. You bet. <strong>Your opponent called again.</strong>"
       },
       {
         "icon": "\ud83c\udf0a",
-        "text": "<strong>River</strong> \u2014 9. Your opponent <strong>fired again for value.</strong>"
+        "text": "<strong>River</strong> \u2014 Jack. Your opponent <strong>led out with a confident bet.</strong>"
       }
     ],
     "yourCards": [
       [
-        "T",
-        "s"
+        "5",
+        "d"
       ],
       [
-        "J",
+        "6",
         "c"
       ]
     ],
     "community": [
       [
-        "9",
-        "d"
+        "4",
+        "c"
+      ],
+      [
+        "T",
+        "c"
+      ],
+      [
+        "5",
+        "c"
       ],
       [
         "A",
@@ -41,78 +49,70 @@
       ],
       [
         "J",
-        "d"
-      ],
-      [
-        "A",
-        "c"
-      ],
-      [
-        "9",
-        "c"
+        "h"
       ]
     ],
-    "correct": 2,
+    "correct": 0,
     "choices": [
       {
-        "label": "4 8",
+        "label": "J 3",
         "cards": [
-          [
-            "4",
-            "c"
-          ],
-          [
-            "8",
-            "d"
-          ]
-        ]
-      },
-      {
-        "label": "2 A",
-        "cards": [
-          [
-            "2",
-            "d"
-          ],
-          [
-            "A",
-            "d"
-          ]
-        ]
-      },
-      {
-        "label": "2 J",
-        "cards": [
-          [
-            "2",
-            "c"
-          ],
           [
             "J",
+            "c"
+          ],
+          [
+            "3",
             "h"
           ]
         ]
       },
       {
-        "label": "3 6",
+        "label": "A 7",
         "cards": [
           [
-            "3",
+            "A",
+            "d"
+          ],
+          [
+            "7",
+            "h"
+          ]
+        ]
+      },
+      {
+        "label": "A Q",
+        "cards": [
+          [
+            "A",
             "c"
           ],
           [
-            "6",
+            "Q",
             "c"
+          ]
+        ]
+      },
+      {
+        "label": "3 K",
+        "cards": [
+          [
+            "3",
+            "s"
+          ],
+          [
+            "K",
+            "d"
           ]
         ]
       }
     ],
     "wrongReasons": [
-      "4 8 has similar strength, but look at when the aggression shifted \u2014 the turn card connects with the correct hand in a way it doesn't connect with 4 8.",
-      "2 A makes a full house here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
       null,
-      "3 6 has similar strength, but look at when the aggression shifted \u2014 the turn card connects with the correct hand in a way it doesn't connect with 3 6."
+      "A 7 is close, but the river lead is the tell. The correct hand picked up more on the river than A 7 would have.",
+      "A Q makes a flush here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
+      "3 K has little reason to lead the river here \u2014 high card can't comfortably go for value after calling two streets."
     ],
-    "explanation": "<strong>Answer: 2 J</strong><br><br>Your opponent called the flop with one pair, then picked up two pair on the turn. The sudden aggression on the turn \u2014 after passivity on the flop \u2014 is the tell: they improved and immediately started building the pot."
+    "explanation": "<strong>Answer: J 3</strong><br><br>Your opponent called two streets with nothing but overcards, then the river card paired one of their hole cards. The sudden lead on the river \u2014 after calling twice \u2014 is the tell: they finally hit something and went for value."
   }
 }
