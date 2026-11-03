@@ -1,118 +1,118 @@
 {
-  "date": "2026-11-02T04:03:03",
+  "date": "2026-11-03T05:03:38",
   "hand": {
     "title": "Daily Hand",
     "events": [
       {
         "icon": "\ud83d\udcb0",
-        "text": "You raised before the cards were dealt. Your opponent called."
+        "text": "<strong>Your cards \u2014 6, 2.</strong> Both players called a raise before the cards were dealt."
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Flop</strong> \u2014 5, King, 6. You bet. <strong>Your opponent called</strong>, staying patient."
+        "text": "<strong>Flop</strong> \u2014 3, Jack, Queen. You bet. <strong>Your opponent raised.</strong>"
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Turn</strong> \u2014 9. You bet. <strong>Your opponent raised</strong> \u2014 they just connected."
+        "text": "<strong>Turn</strong> \u2014 King. Your opponent led out with a bet. <strong>You called.</strong>"
       },
       {
         "icon": "\ud83c\udf0a",
-        "text": "<strong>River</strong> \u2014 Ace. Your opponent <strong>bet again when checked to.</strong>"
+        "text": "<strong>River</strong> \u2014 2. Your opponent <strong>fired again \u2014 half the pot.</strong>"
       }
     ],
     "yourCards": [
       [
-        "T",
-        "d"
+        "6",
+        "h"
       ],
       [
-        "8",
-        "h"
+        "2",
+        "d"
       ]
     ],
     "community": [
       [
-        "5",
+        "3",
+        "c"
+      ],
+      [
+        "J",
         "s"
+      ],
+      [
+        "Q",
+        "c"
       ],
       [
         "K",
-        "c"
-      ],
-      [
-        "6",
         "s"
       ],
       [
-        "9",
-        "h"
-      ],
-      [
-        "A",
+        "2",
         "c"
       ]
     ],
-    "correct": 2,
+    "correct": 3,
     "choices": [
       {
-        "label": "K Q",
+        "label": "K 2",
         "cards": [
           [
             "K",
-            "s"
+            "d"
           ],
           [
-            "Q",
+            "2",
             "s"
           ]
         ]
       },
       {
-        "label": "A 5",
+        "label": "5 8",
         "cards": [
           [
-            "A",
+            "5",
             "d"
           ],
           [
-            "5",
+            "8",
             "c"
           ]
         ]
       },
       {
-        "label": "J 9",
+        "label": "J 10",
         "cards": [
           [
             "J",
-            "d"
+            "c"
           ],
           [
-            "9",
-            "s"
+            "T",
+            "d"
           ]
         ]
       },
       {
-        "label": "2 8",
+        "label": "10 A",
         "cards": [
           [
-            "2",
+            "T",
             "h"
           ],
           [
-            "8",
-            "d"
+            "A",
+            "c"
           ]
         ]
       }
     ],
     "wrongReasons": [
-      "K Q has similar strength, but look at when the aggression shifted \u2014 the turn card connects with the correct hand in a way it doesn't connect with K Q.",
-      "A 5 makes a two pair here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
-      null,
-      "2 8 doesn't benefit from the turn card the way the correct hand does. A player holding only high card wouldn't have the confidence to raise on that street."
+      "K 2 doesn't benefit from the turn card the way the correct hand does. A player holding only two pair wouldn't have the confidence to raise on that street.",
+      "5 8 doesn't benefit from the turn card the way the correct hand does. A player holding only high card wouldn't have the confidence to raise on that street.",
+      "J 10 doesn't benefit from the turn card the way the correct hand does. A player holding only one pair wouldn't have the confidence to raise on that street.",
+      null
     ],
-    "explanation": "<strong>Answer: J 9</strong><br><br>Your opponent called the flop with overcards, then the turn card gave them a pair. The raise on the turn \u2014 right after that card landed \u2014 is the tell: passive until they hit, then immediately aggressive."
+    "explanation": "<strong>Answer: 10 A</strong><br><br>Your opponent flopped a straight and immediately raised to build the pot. They led every remaining street \u2014 consistent value betting across all streets is a strong signal of a made hand."
   }
 }
