@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-05T04:51:23",
+  "date": "2026-11-06T04:51:02",
   "hand": {
     "title": "Daily Hand",
     "events": [
@@ -9,110 +9,110 @@
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Flop</strong> \u2014 3, Jack, 8. You bet. <strong>Your opponent called.</strong>"
+        "text": "<strong>Flop</strong> \u2014 Ace, 7, 3. Your opponent checked. You bet. <strong>Your opponent called.</strong>"
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Turn</strong> \u2014 10. You checked. <strong>Your opponent bet \u2014 bigger than expected.</strong>"
+        "text": "<strong>Turn</strong> \u2014 Jack. Both players checked."
       },
       {
         "icon": "\ud83c\udf0a",
-        "text": "<strong>River</strong> \u2014 King. Your opponent <strong>fired again for value.</strong>"
+        "text": "<strong>River</strong> \u2014 4. Your opponent <strong>led out with a bet.</strong>"
       }
     ],
     "yourCards": [
       [
-        "3",
-        "s"
+        "Q",
+        "h"
       ],
       [
-        "5",
+        "6",
         "c"
       ]
     ],
     "community": [
       [
+        "A",
+        "c"
+      ],
+      [
+        "7",
+        "s"
+      ],
+      [
         "3",
-        "d"
+        "s"
       ],
       [
         "J",
-        "h"
-      ],
-      [
-        "8",
         "s"
       ],
       [
-        "T",
-        "s"
-      ],
-      [
-        "K",
-        "s"
+        "4",
+        "d"
       ]
     ],
-    "correct": 0,
+    "correct": 1,
     "choices": [
       {
-        "label": "J 10",
+        "label": "7 10",
         "cards": [
           [
-            "J",
+            "7",
             "c"
           ],
           [
             "T",
+            "s"
+          ]
+        ]
+      },
+      {
+        "label": "2 A",
+        "cards": [
+          [
+            "2",
+            "s"
+          ],
+          [
+            "A",
             "h"
           ]
         ]
       },
       {
-        "label": "8 K",
+        "label": "A J",
         "cards": [
           [
-            "8",
-            "c"
-          ],
-          [
-            "K",
+            "A",
             "d"
-          ]
-        ]
-      },
-      {
-        "label": "9 7",
-        "cards": [
-          [
-            "9",
-            "c"
           ],
           [
-            "7",
+            "J",
             "c"
           ]
         ]
       },
       {
-        "label": "2 5",
+        "label": "5 8",
         "cards": [
-          [
-            "2",
-            "d"
-          ],
           [
             "5",
+            "c"
+          ],
+          [
+            "8",
             "d"
           ]
         ]
       }
     ],
     "wrongReasons": [
+      "7 10 plays similarly, but the correct hand pairs a specific board card that 7 10 doesn't. Look at which hole card ranks actually appear on the board.",
       null,
-      "8 K has similar strength, but look at when the aggression shifted \u2014 the turn card connects with the correct hand in a way it doesn't connect with 8 K.",
-      "9 7 makes a straight here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
-      "2 5 doesn't benefit from the turn card the way the correct hand does. A player holding only high card wouldn't have the confidence to raise on that street."
+      "A J makes a two pair here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
+      "With only high card, 5 8 wouldn't commit chips across multiple streets. This betting line requires a genuinely made hand from the flop onward."
     ],
-    "explanation": "<strong>Answer: J 10</strong><br><br>Your opponent called the flop with one pair, then picked up two pair on the turn. The sudden aggression on the turn \u2014 after passivity on the flop \u2014 is the tell: they improved and immediately started building the pot."
+    "explanation": "<strong>Answer: 2 A</strong><br><br>Your opponent flopped a pair but played it passively \u2014 calling the flop and checking the turn \u2014 before leading the river to extract thin value. The check-call-check-lead line is a tell for a medium-strength made hand."
   }
 }
