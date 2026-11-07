@@ -1,118 +1,118 @@
 {
-  "date": "2026-11-06T04:51:02",
+  "date": "2026-11-07T04:21:17",
   "hand": {
     "title": "Daily Hand",
     "events": [
       {
         "icon": "\ud83d\udcb0",
-        "text": "You raised before the cards were dealt. Your opponent called."
+        "text": "<strong>Your cards \u2014 A, 9.</strong> Both players called a raise before the cards were dealt."
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Flop</strong> \u2014 Ace, 7, 3. Your opponent checked. You bet. <strong>Your opponent called.</strong>"
+        "text": "<strong>Flop</strong> \u2014 6, 8, 2. You bet. <strong>Your opponent raised.</strong>"
       },
       {
         "icon": "\ud83c\udccf",
-        "text": "<strong>Turn</strong> \u2014 Jack. Both players checked."
+        "text": "<strong>Turn</strong> \u2014 4. Your opponent led out with a bet. <strong>You called.</strong>"
       },
       {
         "icon": "\ud83c\udf0a",
-        "text": "<strong>River</strong> \u2014 4. Your opponent <strong>led out with a bet.</strong>"
+        "text": "<strong>River</strong> \u2014 10. Your opponent <strong>fired again \u2014 half the pot.</strong>"
       }
     ],
     "yourCards": [
       [
-        "Q",
-        "h"
+        "A",
+        "s"
       ],
       [
-        "6",
-        "c"
+        "9",
+        "s"
       ]
     ],
     "community": [
       [
-        "A",
-        "c"
+        "6",
+        "d"
       ],
       [
-        "7",
-        "s"
+        "8",
+        "d"
       ],
       [
-        "3",
-        "s"
-      ],
-      [
-        "J",
+        "2",
         "s"
       ],
       [
         "4",
-        "d"
+        "h"
+      ],
+      [
+        "T",
+        "s"
       ]
     ],
-    "correct": 1,
+    "correct": 0,
     "choices": [
       {
-        "label": "7 10",
+        "label": "7 9",
         "cards": [
           [
             "7",
-            "c"
+            "h"
           ],
           [
-            "T",
-            "s"
-          ]
-        ]
-      },
-      {
-        "label": "2 A",
-        "cards": [
-          [
-            "2",
-            "s"
-          ],
-          [
-            "A",
+            "9",
             "h"
           ]
         ]
       },
       {
-        "label": "A J",
+        "label": "3 5",
         "cards": [
           [
-            "A",
+            "3",
             "d"
           ],
           [
-            "J",
+            "5",
             "c"
           ]
         ]
       },
       {
-        "label": "5 8",
+        "label": "8 9",
         "cards": [
           [
-            "5",
+            "8",
             "c"
           ],
           [
-            "8",
+            "9",
+            "c"
+          ]
+        ]
+      },
+      {
+        "label": "5 A",
+        "cards": [
+          [
+            "5",
+            "d"
+          ],
+          [
+            "A",
             "d"
           ]
         ]
       }
     ],
     "wrongReasons": [
-      "7 10 plays similarly, but the correct hand pairs a specific board card that 7 10 doesn't. Look at which hole card ranks actually appear on the board.",
       null,
-      "A J makes a two pair here \u2014 a hand that strong would have raised earlier and pushed harder for maximum value. The measured sizing in this hand points to something weaker.",
-      "With only high card, 5 8 wouldn't commit chips across multiple streets. This betting line requires a genuinely made hand from the flop onward."
+      "3 5 is close, but the river lead is the tell. The correct hand picked up more on the river than 3 5 would have.",
+      "8 9 has little reason to lead the river here \u2014 one pair can't comfortably go for value after calling two streets.",
+      "5 A has little reason to lead the river here \u2014 high card can't comfortably go for value after calling two streets."
     ],
-    "explanation": "<strong>Answer: 2 A</strong><br><br>Your opponent flopped a pair but played it passively \u2014 calling the flop and checking the turn \u2014 before leading the river to extract thin value. The check-call-check-lead line is a tell for a medium-strength made hand."
+    "explanation": "<strong>Answer: 7 9</strong><br><br>Your opponent flopped a straight and immediately raised to build the pot. They led every remaining street \u2014 consistent value betting across all streets is a strong signal of a made hand."
   }
 }
